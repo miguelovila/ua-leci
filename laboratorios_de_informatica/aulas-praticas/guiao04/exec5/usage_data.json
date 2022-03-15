@@ -1,0 +1,484 @@
+{
+  "stats": [
+    {
+      "time": 1651500255.7454743,
+      "cpu": 23.5,
+      "network": {
+        "packets_sent": 134377,
+        "packets_recv": 218772
+      }
+    },
+    {
+      "time": 1651500256.7462244,
+      "cpu": 32.5,
+      "network": {
+        "packets_sent": 134382,
+        "packets_recv": 218777
+      }
+    },
+    {
+      "time": 1651500257.7481596,
+      "cpu": 25.4,
+      "network": {
+        "packets_sent": 134389,
+        "packets_recv": 218784
+      }
+    },
+    {
+      "time": 1651500258.7507472,
+      "cpu": 29.3,
+      "network": {
+        "packets_sent": 134416,
+        "packets_recv": 218814
+      }
+    },
+    {
+      "time": 1651500259.7526119,
+      "cpu": 39.6,
+      "network": {
+        "packets_sent": 134575,
+        "packets_recv": 218987
+      }
+    },
+    {
+      "time": 1651500260.7541404,
+      "cpu": 39.6,
+      "network": {
+        "packets_sent": 134634,
+        "packets_recv": 219071
+      }
+    },
+    {
+      "time": 1651500261.7556753,
+      "cpu": 51.1,
+      "network": {
+        "packets_sent": 134685,
+        "packets_recv": 219135
+      }
+    },
+    {
+      "time": 1651500262.7571054,
+      "cpu": 57.6,
+      "network": {
+        "packets_sent": 134827,
+        "packets_recv": 219619
+      }
+    },
+    {
+      "time": 1651500263.758023,
+      "cpu": 36.6,
+      "network": {
+        "packets_sent": 134908,
+        "packets_recv": 219696
+      }
+    },
+    {
+      "time": 1651500264.7598274,
+      "cpu": 38.0,
+      "network": {
+        "packets_sent": 135002,
+        "packets_recv": 219829
+      }
+    },
+    {
+      "time": 1651500265.7622242,
+      "cpu": 39.7,
+      "network": {
+        "packets_sent": 135022,
+        "packets_recv": 219845
+      }
+    },
+    {
+      "time": 1651500266.7637367,
+      "cpu": 32.4,
+      "network": {
+        "packets_sent": 135046,
+        "packets_recv": 219929
+      }
+    },
+    {
+      "time": 1651500267.7653313,
+      "cpu": 37.6,
+      "network": {
+        "packets_sent": 135046,
+        "packets_recv": 219929
+      }
+    },
+    {
+      "time": 1651500268.7662244,
+      "cpu": 46.8,
+      "network": {
+        "packets_sent": 135214,
+        "packets_recv": 220169
+      }
+    },
+    {
+      "time": 1651500269.767903,
+      "cpu": 42.5,
+      "network": {
+        "packets_sent": 135887,
+        "packets_recv": 221880
+      }
+    },
+    {
+      "time": 1651500270.769357,
+      "cpu": 57.5,
+      "network": {
+        "packets_sent": 136302,
+        "packets_recv": 223302
+      }
+    },
+    {
+      "time": 1651500271.769938,
+      "cpu": 71.7,
+      "network": {
+        "packets_sent": 136907,
+        "packets_recv": 225514
+      }
+    },
+    {
+      "time": 1651500272.7715268,
+      "cpu": 82.6,
+      "network": {
+        "packets_sent": 137556,
+        "packets_recv": 228010
+      }
+    },
+    {
+      "time": 1651500273.7732027,
+      "cpu": 82.7,
+      "network": {
+        "packets_sent": 137958,
+        "packets_recv": 229465
+      }
+    },
+    {
+      "time": 1651500274.7739286,
+      "cpu": 91.4,
+      "network": {
+        "packets_sent": 139296,
+        "packets_recv": 232491
+      }
+    },
+    {
+      "time": 1651500275.7755296,
+      "cpu": 79.8,
+      "network": {
+        "packets_sent": 140162,
+        "packets_recv": 235186
+      }
+    },
+    {
+      "time": 1651500276.777181,
+      "cpu": 95.4,
+      "network": {
+        "packets_sent": 141111,
+        "packets_recv": 238066
+      }
+    },
+    {
+      "time": 1651500277.7781622,
+      "cpu": 85.5,
+      "network": {
+        "packets_sent": 142364,
+        "packets_recv": 241578
+      }
+    },
+    {
+      "time": 1651500278.7798374,
+      "cpu": 70.6,
+      "network": {
+        "packets_sent": 143289,
+        "packets_recv": 244109
+      }
+    },
+    {
+      "time": 1651500279.781471,
+      "cpu": 66.2,
+      "network": {
+        "packets_sent": 144763,
+        "packets_recv": 247796
+      }
+    },
+    {
+      "time": 1651500280.783112,
+      "cpu": 57.2,
+      "network": {
+        "packets_sent": 146074,
+        "packets_recv": 250912
+      }
+    },
+    {
+      "time": 1651500281.7845652,
+      "cpu": 59.3,
+      "network": {
+        "packets_sent": 147580,
+        "packets_recv": 254451
+      }
+    },
+    {
+      "time": 1651500282.7859662,
+      "cpu": 53.9,
+      "network": {
+        "packets_sent": 149036,
+        "packets_recv": 258135
+      }
+    },
+    {
+      "time": 1651500283.7876494,
+      "cpu": 86.8,
+      "network": {
+        "packets_sent": 150329,
+        "packets_recv": 261838
+      }
+    },
+    {
+      "time": 1651500284.789366,
+      "cpu": 91.2,
+      "network": {
+        "packets_sent": 151238,
+        "packets_recv": 264613
+      }
+    },
+    {
+      "time": 1651500285.7902844,
+      "cpu": 83.8,
+      "network": {
+        "packets_sent": 152376,
+        "packets_recv": 267901
+      }
+    },
+    {
+      "time": 1651500286.7919815,
+      "cpu": 83.0,
+      "network": {
+        "packets_sent": 153062,
+        "packets_recv": 269954
+      }
+    },
+    {
+      "time": 1651500287.7930393,
+      "cpu": 81.5,
+      "network": {
+        "packets_sent": 154079,
+        "packets_recv": 272928
+      }
+    },
+    {
+      "time": 1651500288.7942326,
+      "cpu": 84.0,
+      "network": {
+        "packets_sent": 155322,
+        "packets_recv": 276312
+      }
+    },
+    {
+      "time": 1651500289.7957962,
+      "cpu": 81.8,
+      "network": {
+        "packets_sent": 156467,
+        "packets_recv": 279467
+      }
+    },
+    {
+      "time": 1651500290.7970982,
+      "cpu": 79.6,
+      "network": {
+        "packets_sent": 157875,
+        "packets_recv": 283300
+      }
+    },
+    {
+      "time": 1651500291.7981672,
+      "cpu": 79.9,
+      "network": {
+        "packets_sent": 159137,
+        "packets_recv": 286965
+      }
+    },
+    {
+      "time": 1651500292.7997513,
+      "cpu": 57.9,
+      "network": {
+        "packets_sent": 160670,
+        "packets_recv": 290955
+      }
+    },
+    {
+      "time": 1651500293.8013992,
+      "cpu": 80.1,
+      "network": {
+        "packets_sent": 161931,
+        "packets_recv": 294726
+      }
+    },
+    {
+      "time": 1651500294.8021545,
+      "cpu": 93.7,
+      "network": {
+        "packets_sent": 163221,
+        "packets_recv": 298349
+      }
+    },
+    {
+      "time": 1651500295.8038445,
+      "cpu": 95.5,
+      "network": {
+        "packets_sent": 164352,
+        "packets_recv": 301376
+      }
+    },
+    {
+      "time": 1651500296.8055565,
+      "cpu": 95.2,
+      "network": {
+        "packets_sent": 165193,
+        "packets_recv": 303849
+      }
+    },
+    {
+      "time": 1651500297.807202,
+      "cpu": 95.7,
+      "network": {
+        "packets_sent": 166050,
+        "packets_recv": 306107
+      }
+    },
+    {
+      "time": 1651500298.8088667,
+      "cpu": 94.0,
+      "network": {
+        "packets_sent": 167084,
+        "packets_recv": 308892
+      }
+    },
+    {
+      "time": 1651500299.8100858,
+      "cpu": 95.0,
+      "network": {
+        "packets_sent": 167861,
+        "packets_recv": 311283
+      }
+    },
+    {
+      "time": 1651500300.81199,
+      "cpu": 94.5,
+      "network": {
+        "packets_sent": 168687,
+        "packets_recv": 313613
+      }
+    },
+    {
+      "time": 1651500301.8138428,
+      "cpu": 95.2,
+      "network": {
+        "packets_sent": 169214,
+        "packets_recv": 315032
+      }
+    },
+    {
+      "time": 1651500302.815542,
+      "cpu": 94.5,
+      "network": {
+        "packets_sent": 170036,
+        "packets_recv": 317176
+      }
+    },
+    {
+      "time": 1651500303.8172393,
+      "cpu": 96.0,
+      "network": {
+        "packets_sent": 170698,
+        "packets_recv": 319054
+      }
+    },
+    {
+      "time": 1651500304.8181324,
+      "cpu": 95.2,
+      "network": {
+        "packets_sent": 171470,
+        "packets_recv": 321310
+      }
+    },
+    {
+      "time": 1651500305.8198657,
+      "cpu": 96.2,
+      "network": {
+        "packets_sent": 172594,
+        "packets_recv": 324469
+      }
+    },
+    {
+      "time": 1651500306.821336,
+      "cpu": 95.8,
+      "network": {
+        "packets_sent": 173735,
+        "packets_recv": 327646
+      }
+    },
+    {
+      "time": 1651500307.8221633,
+      "cpu": 95.0,
+      "network": {
+        "packets_sent": 174880,
+        "packets_recv": 330676
+      }
+    },
+    {
+      "time": 1651500308.8237615,
+      "cpu": 94.0,
+      "network": {
+        "packets_sent": 175892,
+        "packets_recv": 333698
+      }
+    },
+    {
+      "time": 1651500309.8254886,
+      "cpu": 94.7,
+      "network": {
+        "packets_sent": 177091,
+        "packets_recv": 337169
+      }
+    },
+    {
+      "time": 1651500310.8269389,
+      "cpu": 92.7,
+      "network": {
+        "packets_sent": 178389,
+        "packets_recv": 340894
+      }
+    },
+    {
+      "time": 1651500311.8286123,
+      "cpu": 94.7,
+      "network": {
+        "packets_sent": 179435,
+        "packets_recv": 344015
+      }
+    },
+    {
+      "time": 1651500312.8300393,
+      "cpu": 94.2,
+      "network": {
+        "packets_sent": 180443,
+        "packets_recv": 346901
+      }
+    },
+    {
+      "time": 1651500313.8316848,
+      "cpu": 92.3,
+      "network": {
+        "packets_sent": 181301,
+        "packets_recv": 349376
+      }
+    },
+    {
+      "time": 1651500314.833338,
+      "cpu": 93.7,
+      "network": {
+        "packets_sent": 182182,
+        "packets_recv": 351782
+      }
+    }
+  ]
+}
