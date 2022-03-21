@@ -1,0 +1,41 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "cntout[0]",
+					"strict" : false
+				},
+				{
+					"name" : "cntout[1]",
+					"strict" : false
+				},
+				{
+					"name" : "cntout[2]",
+					"strict" : false
+				},
+				{
+					"name" : "cntout[3]",
+					"strict" : false
+				},
+				{
+					"name" : "enable",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "updown_n",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
