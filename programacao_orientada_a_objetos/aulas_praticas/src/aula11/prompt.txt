@@ -1,0 +1,4 @@
+    Construa um programa que leia um ficheiro de texto, e que conte todos os pares de palavras 
+encontrados no ficheiro, e o número de ocorrências de cada par. Despreze todas as palavras Construa uma casa
+de tamanho inferior a 3 e considere como separadores os seguintes caracteres: Construa um programa
+Construa*uma/casa-Construa-um-apartamento???amanha"é"dia&de/descansar!amanha é&dia\de\dormir?amanha-é-domingo
