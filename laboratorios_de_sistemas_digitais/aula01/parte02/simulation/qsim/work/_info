@@ -1,0 +1,96 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula01/parte02/simulation/qsim
+Eand2gate
+Z1 w1647453502
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 JX^YokbeM8:bL?Pj@;1Jd1
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 Lf2433zWNi5^RHNT=BHD60
+R0
+Z8 8AND2Gate.vho
+Z9 FAND2Gate.vho
+l0
+L35
+V:]cWWo=QB_5c>__Se6_5B0
+!s100 XIebMdYKEc=zoiY4Y4WzB3
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1647453503
+!i10b 1
+Z12 !s108 1647453503.000000
+Z13 !s90 -work|work|AND2Gate.vho|
+Z14 !s107 AND2Gate.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 8 and2gate 0 22 :]cWWo=QB_5c>__Se6_5B0
+l61
+L43
+VbG]E1OSclID>TP2LflPj<3
+!s100 oHIJ?RTGQNio1RKjcDhId1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Eand2gate_vhd_vec_tst
+R1
+R5
+R6
+R0
+Z17 8AND2Gate.vwf.vht
+Z18 FAND2Gate.vwf.vht
+l0
+L32
+VRVi7UiVPf6W^OhOdE<4KR1
+!s100 EGFXC8A5YBLJAogO_JABk3
+R10
+32
+R11
+!i10b 1
+R12
+Z19 !s90 -work|work|AND2Gate.vwf.vht|
+Z20 !s107 AND2Gate.vwf.vht|
+!i113 1
+R15
+R16
+Aand2gate_arch
+R5
+R6
+DEx4 work 20 and2gate_vhd_vec_tst 0 22 RVi7UiVPf6W^OhOdE<4KR1
+l47
+L34
+VnN27=a:<Gh^=0lGJdEKPn3
+!s100 DHgkc5G1kFC[50RZ:9R[O3
+R10
+32
+R11
+!i10b 1
+R12
+R19
+R20
+!i113 1
+R15
+R16
