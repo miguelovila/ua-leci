@@ -1,0 +1,97 @@
+|CmpN_Demo
+LEDG[0] <= cmpn:inst.equal
+LEDG[1] <= cmpn:inst.notequal
+LEDG[2] <= cmpn:inst.ltsigned
+LEDG[3] <= cmpn:inst.ltunsigned
+SW[0] => cmpn:inst.input0[0]
+SW[1] => cmpn:inst.input0[1]
+SW[2] => cmpn:inst.input0[2]
+SW[3] => cmpn:inst.input0[3]
+SW[4] => cmpn:inst.input1[0]
+SW[5] => cmpn:inst.input1[1]
+SW[6] => cmpn:inst.input1[2]
+SW[7] => cmpn:inst.input1[3]
+SW[8] => cmpn:inst8.input1[0]
+SW[9] => cmpn:inst8.input1[1]
+SW[10] => cmpn:inst8.input1[2]
+SW[11] => cmpn:inst8.input1[3]
+SW[12] => cmpn:inst8.input1[4]
+SW[13] => cmpn:inst8.input0[0]
+SW[14] => cmpn:inst8.input0[1]
+SW[15] => cmpn:inst8.input0[2]
+SW[16] => cmpn:inst8.input0[3]
+SW[17] => cmpn:inst8.input0[4]
+LEDr[0] <= cmpn:inst8.equal
+LEDr[1] <= cmpn:inst8.notequal
+LEDr[2] <= cmpn:inst8.ltsigned
+LEDr[3] <= cmpn:inst8.ltunsigned
+
+
+|CmpN_Demo|cmpn:inst
+input0[0] => Equal0.IN3
+input0[0] => LessThan0.IN4
+input0[0] => LessThan1.IN4
+input0[1] => Equal0.IN2
+input0[1] => LessThan0.IN3
+input0[1] => LessThan1.IN3
+input0[2] => Equal0.IN1
+input0[2] => LessThan0.IN2
+input0[2] => LessThan1.IN2
+input0[3] => Equal0.IN0
+input0[3] => LessThan0.IN1
+input0[3] => LessThan1.IN1
+input1[0] => Equal0.IN7
+input1[0] => LessThan0.IN8
+input1[0] => LessThan1.IN8
+input1[1] => Equal0.IN6
+input1[1] => LessThan0.IN7
+input1[1] => LessThan1.IN7
+input1[2] => Equal0.IN5
+input1[2] => LessThan0.IN6
+input1[2] => LessThan1.IN6
+input1[3] => Equal0.IN4
+input1[3] => LessThan0.IN5
+input1[3] => LessThan1.IN5
+equal <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+notequal <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+ltsigned <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+ltunsigned <= LessThan1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CmpN_Demo|cmpn:inst8
+input0[0] => Equal0.IN4
+input0[0] => LessThan0.IN5
+input0[0] => LessThan1.IN5
+input0[1] => Equal0.IN3
+input0[1] => LessThan0.IN4
+input0[1] => LessThan1.IN4
+input0[2] => Equal0.IN2
+input0[2] => LessThan0.IN3
+input0[2] => LessThan1.IN3
+input0[3] => Equal0.IN1
+input0[3] => LessThan0.IN2
+input0[3] => LessThan1.IN2
+input0[4] => Equal0.IN0
+input0[4] => LessThan0.IN1
+input0[4] => LessThan1.IN1
+input1[0] => Equal0.IN9
+input1[0] => LessThan0.IN10
+input1[0] => LessThan1.IN10
+input1[1] => Equal0.IN8
+input1[1] => LessThan0.IN9
+input1[1] => LessThan1.IN9
+input1[2] => Equal0.IN7
+input1[2] => LessThan0.IN8
+input1[2] => LessThan1.IN8
+input1[3] => Equal0.IN6
+input1[3] => LessThan0.IN7
+input1[3] => LessThan1.IN7
+input1[4] => Equal0.IN5
+input1[4] => LessThan0.IN6
+input1[4] => LessThan1.IN6
+equal <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+notequal <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+ltsigned <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+ltunsigned <= LessThan1.DB_MAX_OUTPUT_PORT_TYPE
+
+
