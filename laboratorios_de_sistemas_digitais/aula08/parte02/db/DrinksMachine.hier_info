@@ -1,0 +1,27 @@
+|DrinksFSM
+Vint => s_NextState.OUTPUTSELECT
+Vint => s_NextState.OUTPUTSELECT
+Vint => s_NextState.OUTPUTSELECT
+Vint => Selector3.IN3
+Vint => Selector4.IN3
+Vint => Selector5.IN4
+Vint => Selector6.IN4
+Cinq => s_NextState.DATAA
+Cinq => s_NextState.DATAA
+Cinq => s_NextState.DATAA
+Reset => s_CurrentState.OUTPUTSELECT
+Reset => s_CurrentState.OUTPUTSELECT
+Reset => s_CurrentState.OUTPUTSELECT
+Reset => s_CurrentState.OUTPUTSELECT
+Reset => s_CurrentState.OUTPUTSELECT
+Reset => s_CurrentState.OUTPUTSELECT
+Clk => s_CurrentState~1.DATAIN
+Drink << Drink$latch.DB_MAX_OUTPUT_PORT_TYPE
+Debugl[0] << Drink.DB_MAX_OUTPUT_PORT_TYPE
+Debugl[1] << Debugl[1].DB_MAX_OUTPUT_PORT_TYPE
+Debugl[2] << Debugl[2].DB_MAX_OUTPUT_PORT_TYPE
+Debugl[3] << Debugl[3].DB_MAX_OUTPUT_PORT_TYPE
+Debugl[4] << Debugl[4].DB_MAX_OUTPUT_PORT_TYPE
+Debugl[5] << Debugl[5].DB_MAX_OUTPUT_PORT_TYPE
+
+
