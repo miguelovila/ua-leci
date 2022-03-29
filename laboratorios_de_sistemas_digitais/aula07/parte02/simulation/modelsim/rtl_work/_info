@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula07/parte02/simulation/modelsim
+Ebinudcntenrst4
+Z1 w1651676557
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8/home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula07/parte02/BinUDCntEnRst4.vhd
+Z6 F/home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula07/parte02/BinUDCntEnRst4.vhd
+l0
+L5
+VB^i6m[UZmQ?d;19GTVZ@41
+!s100 CORoa]53Z]S4n4nNN`;6@0
+Z7 OV;C;10.5b;63
+31
+Z8 !s110 1651740875
+!i10b 1
+Z9 !s108 1651740875.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|/home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula07/parte02/BinUDCntEnRst4.vhd|
+Z11 !s107 /home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula07/parte02/BinUDCntEnRst4.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+Z14 DEx4 work 14 binudcntenrst4 0 22 B^i6m[UZmQ?d;19GTVZ@41
+l15
+L13
+VY64KWOXGW1FRJkRV1g4:`3
+!s100 4B@hVD47iJ]0N]EAMe;7N0
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ebinudcntenrst8tb
+Z15 w1651676856
+R3
+R4
+R0
+Z16 8/home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula07/parte02/BinUDCntEnRst4_TB.vhd
+Z17 F/home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula07/parte02/BinUDCntEnRst4_TB.vhd
+l0
+L5
+VTd@Ki_^I_07glWnfVDb:I0
+!s100 j=Pf:`@TEiESTKKmU`O401
+R7
+32
+Z18 !s110 1651740891
+!i10b 1
+Z19 !s108 1651740891.000000
+Z20 !s90 -reportprogress|300|-work|work|/home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula07/parte02/BinUDCntEnRst4_TB.vhd|
+Z21 !s107 /home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula07/parte02/BinUDCntEnRst4_TB.vhd|
+!i113 1
+Z22 o-work work
+R13
+Astimulus
+R2
+R14
+R3
+R4
+DEx4 work 16 binudcntenrst8tb 0 22 Td@Ki_^I_07glWnfVDb:I0
+l14
+L8
+VhXVU6X2X`iU`h>365Y@DF1
+!s100 Ik7SCa0QdmX9X^nO=1Mnb0
+R7
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R22
+R13
