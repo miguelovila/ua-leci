@@ -1,0 +1,16 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity displaydemo is
+	port (inputport  : in  std_logic_vector(3 downto 0);
+	      enableport : in  std_logic;
+			outputport : out std_logic_vector(6 downto 0));
+end displaydemo;
+
+architecture shell of displaydemo is
+begin
+	system_core : entity work.bin7segdecoder(behavioral)
+					  port map(inputport => bininput,
+								  enableport => enable,
+								  outputport => decout_n);
+end shell;
