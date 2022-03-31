@@ -1,0 +1,96 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula03/parte04/simulation/qsim
+Ebin2bcd
+Z1 w1648721893
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 JX^YokbeM8:bL?Pj@;1Jd1
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 Lf2433zWNi5^RHNT=BHD60
+R0
+Z8 8ALUDemo.vho
+Z9 FALUDemo.vho
+l0
+L35
+VRzb2=ci7ED^7K=aDVZO;R0
+!s100 S;lMmdPbe`T]9MRg9fn6E3
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1648721894
+!i10b 1
+Z12 !s108 1648721894.000000
+Z13 !s90 -work|work|ALUDemo.vho|
+Z14 !s107 ALUDemo.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 7 bin2bcd 0 22 Rzb2=ci7ED^7K=aDVZO;R0
+l348
+L45
+VQ?>hI3bkZRKBee3=4H:DV0
+!s100 >;JAT;QEmeQdFAXoS@2Cj2
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Ebin2bcd_vhd_vec_tst
+Z17 w1648721892
+R5
+R6
+R0
+Z18 8Bin2BCDSim.vwf.vht
+Z19 FBin2BCDSim.vwf.vht
+l0
+L32
+VnBeUIT^TK<f`_meck12m]3
+!s100 S:5R]dKSU>3@YoGnF[VTR2
+R10
+32
+R11
+!i10b 1
+R12
+Z20 !s90 -work|work|Bin2BCDSim.vwf.vht|
+Z21 !s107 Bin2BCDSim.vwf.vht|
+!i113 1
+R15
+R16
+Abin2bcd_arch
+R5
+R6
+Z22 DEx4 work 19 bin2bcd_vhd_vec_tst 0 22 nBeUIT^TK<f`_meck12m]3
+l51
+L34
+V`o7Oh4c4AlHQF_B:Sff`:0
+!s100 oJ66<lhNhHEKDKZ]4BgK51
+R10
+32
+R11
+!i10b 1
+R12
+R20
+R21
+!i113 1
+R15
+R16
