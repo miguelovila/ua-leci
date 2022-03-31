@@ -1,0 +1,161 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CLOCK_50'
+Slack : -4.066
+TNS   : -300.463
+
+Type  : Slow 1200mV 85C Model Setup 'PulseGenerator2Hz:Hz2Lane|blink'
+Slack : -0.256
+TNS   : -0.491
+
+Type  : Slow 1200mV 85C Model Setup 'DeBounce:DebounceKEY1|cleanOut'
+Slack : 0.210
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CLOCK_50'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'PulseGenerator2Hz:Hz2Lane|blink'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'DeBounce:DebounceKEY1|cleanOut'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'DeBounce:DebounceKEY1|cleanOut'
+Slack : -2.638
+TNS   : -2.638
+
+Type  : Slow 1200mV 85C Model Recovery 'PulseGenerator2Hz:Hz2Lane|blink'
+Slack : -0.382
+TNS   : -1.528
+
+Type  : Slow 1200mV 85C Model Removal 'PulseGenerator2Hz:Hz2Lane|blink'
+Slack : 0.762
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'DeBounce:DebounceKEY1|cleanOut'
+Slack : 3.104
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -161.055
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'PulseGenerator2Hz:Hz2Lane|blink'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DeBounce:DebounceKEY1|cleanOut'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -3.666
+TNS   : -262.101
+
+Type  : Slow 1200mV 0C Model Setup 'PulseGenerator2Hz:Hz2Lane|blink'
+Slack : -0.131
+TNS   : -0.242
+
+Type  : Slow 1200mV 0C Model Setup 'DeBounce:DebounceKEY1|cleanOut'
+Slack : 0.297
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'PulseGenerator2Hz:Hz2Lane|blink'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'DeBounce:DebounceKEY1|cleanOut'
+Slack : 0.398
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'DeBounce:DebounceKEY1|cleanOut'
+Slack : -2.354
+TNS   : -2.354
+
+Type  : Slow 1200mV 0C Model Recovery 'PulseGenerator2Hz:Hz2Lane|blink'
+Slack : -0.259
+TNS   : -1.036
+
+Type  : Slow 1200mV 0C Model Removal 'PulseGenerator2Hz:Hz2Lane|blink'
+Slack : 0.717
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'DeBounce:DebounceKEY1|cleanOut'
+Slack : 2.872
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -161.055
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'PulseGenerator2Hz:Hz2Lane|blink'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DeBounce:DebounceKEY1|cleanOut'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Fast 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -1.547
+TNS   : -83.655
+
+Type  : Fast 1200mV 0C Model Setup 'PulseGenerator2Hz:Hz2Lane|blink'
+Slack : 0.385
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'DeBounce:DebounceKEY1|cleanOut'
+Slack : 0.624
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.182
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'PulseGenerator2Hz:Hz2Lane|blink'
+Slack : 0.183
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DeBounce:DebounceKEY1|cleanOut'
+Slack : 0.206
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'DeBounce:DebounceKEY1|cleanOut'
+Slack : -1.125
+TNS   : -1.125
+
+Type  : Fast 1200mV 0C Model Recovery 'PulseGenerator2Hz:Hz2Lane|blink'
+Slack : 0.261
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'PulseGenerator2Hz:Hz2Lane|blink'
+Slack : 0.372
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'DeBounce:DebounceKEY1|cleanOut'
+Slack : 1.835
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -134.084
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'PulseGenerator2Hz:Hz2Lane|blink'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DeBounce:DebounceKEY1|cleanOut'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------
