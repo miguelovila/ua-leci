@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Apr 10 16:35:09 2022
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : Register_Demo
+Top-level Entity Name : register8
+Family : Cyclone IV E
+Total logic elements : 8
+    Total combinational functions : 0
+    Dedicated logic registers : 8
+Total registers : 8
+Total pins : 18
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
