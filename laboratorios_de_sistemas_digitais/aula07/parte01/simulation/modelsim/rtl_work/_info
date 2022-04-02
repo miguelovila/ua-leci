@@ -1,0 +1,89 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula07/parte01/simulation/modelsim
+Edec2_4en
+Z1 w1651673888
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8/home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula07/parte01/Dec2_4En.vhd
+Z5 F/home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula07/parte01/Dec2_4En.vhd
+l0
+L4
+V08hV]]]?IEo=5nkRdd[kP3
+!s100 l8IDgJIhWA1]YILW@iO_^1
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1651675352
+!i10b 1
+Z8 !s108 1651675352.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|/home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula07/parte01/Dec2_4En.vhd|
+Z10 !s107 /home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula07/parte01/Dec2_4En.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+Z13 DEx4 work 8 dec2_4en 0 22 08hV]]]?IEo=5nkRdd[kP3
+l11
+L10
+V^<T3^E]k[FDM@0_>[Y0D92
+!s100 YElb]ji^:0KiY?=Z7=kPk0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edec2_4en_tb
+Z14 w1651674000
+R2
+R3
+R0
+Z15 8/home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula07/parte01/Dec2_4En_Tb.vhd
+Z16 F/home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula07/parte01/Dec2_4En_Tb.vhd
+l0
+L5
+VZLmXB<2G=mA6z0AJgCMFU2
+!s100 5NIckhOODWPQ6Rn6JZkbE3
+R6
+32
+Z17 !s110 1651675555
+!i10b 1
+Z18 !s108 1651675555.000000
+Z19 !s90 -reportprogress|300|-work|work|/home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula07/parte01/Dec2_4En_Tb.vhd|
+Z20 !s107 /home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula07/parte01/Dec2_4En_Tb.vhd|
+!i113 1
+Z21 o-work work
+R12
+Astimulus
+R13
+R2
+R3
+Z22 DEx4 work 11 dec2_4en_tb 0 22 ZLmXB<2G=mA6z0AJgCMFU2
+l16
+L8
+Z23 VN<;c=cmBaEHJl]aS^4Q@S0
+Z24 !s100 h[j`5iZnB^:h?mX7NiDfN2
+R6
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R21
+R12
