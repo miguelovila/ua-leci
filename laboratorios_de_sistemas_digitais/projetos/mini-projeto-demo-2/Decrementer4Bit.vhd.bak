@@ -1,0 +1,30 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+USE ieee.numeric_std.ALL;
+
+ENTITY Decrementer4Bit IS
+	PORT (
+		clk : IN STD_LOGIC;
+		reset : IN STD_LOGIC;
+		count : OUT STD_LOGIC_VECTOR(4 DOWNTO 0));
+END Decrementer4Bit;
+
+ARCHITECTURE Behavioral OF Decrementer4Bit IS
+	SIGNAL s_contagem : unsigned((n - 1) DOWNTO 0) := (OTHERS => '0');
+BEGIN
+	PROCESS (entradaclock)
+	BEGIN
+		IF (rising_edge(entradaclock)) THEN
+			IF (resetar = '1') THEN
+				s_contagem <= (OTHERS => '0');
+			ELSE
+				IF (incdec = '0') THEN
+					s_contagem <= s_contagem + 1;
+				ELSE
+					s_contagem <= s_contagem - 1;
+				END IF;
+			END IF;
+		END IF;
+	END PROCESS;
+	contagem <= STD_LOGIC_VECTOR(s_contagem);
+END Behavioral;
