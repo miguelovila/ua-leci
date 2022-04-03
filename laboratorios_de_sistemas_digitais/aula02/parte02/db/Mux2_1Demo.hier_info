@@ -1,0 +1,26 @@
+|Mux4_1Demo
+LEDR[0] <= mux4_1:inst.outport
+SW[0] => mux4_1:inst.inpport[0]
+SW[1] => mux4_1:inst.inpport[1]
+SW[2] => mux4_1:inst.inpport[2]
+SW[3] => mux4_1:inst.inpport[3]
+KEY[0] => mux4_1:inst.selport[0]
+KEY[1] => mux4_1:inst.selport[1]
+
+
+|Mux4_1Demo|mux4_1:inst
+selport[0] => Equal0.IN1
+selport[0] => Equal1.IN0
+selport[0] => Equal2.IN1
+selport[0] => Equal3.IN1
+selport[1] => Equal0.IN0
+selport[1] => Equal1.IN1
+selport[1] => Equal2.IN0
+selport[1] => Equal3.IN0
+inpport[0] => outport.DATAB
+inpport[1] => outport.DATAB
+inpport[2] => outport.DATAB
+inpport[3] => outport.DATAA
+outport <= outport$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
