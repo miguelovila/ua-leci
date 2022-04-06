@@ -1,0 +1,114 @@
+|AccN_Demo
+LEDR[0] <= accn:inst.dataout[0]
+LEDR[1] <= accn:inst.dataout[1]
+LEDR[2] <= accn:inst.dataout[2]
+LEDR[3] <= accn:inst.dataout[3]
+LEDR[4] <= accn:inst.dataout[4]
+LEDR[5] <= accn:inst.dataout[5]
+LEDR[6] <= accn:inst.dataout[6]
+LEDR[7] <= accn:inst.dataout[7]
+SW[0] => accn:inst.datain[0]
+SW[1] => accn:inst.datain[1]
+SW[2] => accn:inst.datain[2]
+SW[3] => accn:inst.datain[3]
+SW[4] => accn:inst.datain[4]
+SW[5] => accn:inst.datain[5]
+SW[6] => accn:inst.datain[6]
+SW[7] => accn:inst.datain[7]
+SW[8] => accn:inst.reset
+SW[9] => accn:inst.enable
+KEY[0] => accn:inst.clock
+
+
+|AccN_Demo|accn:inst
+reset => regn:reg.reset
+enable => regn:reg.enable
+clock => regn:reg.clock
+datain[0] => addern:adder.operand0[0]
+datain[1] => addern:adder.operand0[1]
+datain[2] => addern:adder.operand0[2]
+datain[3] => addern:adder.operand0[3]
+datain[4] => addern:adder.operand0[4]
+datain[5] => addern:adder.operand0[5]
+datain[6] => addern:adder.operand0[6]
+datain[7] => addern:adder.operand0[7]
+dataout[0] <= regn:reg.dataout[0]
+dataout[1] <= regn:reg.dataout[1]
+dataout[2] <= regn:reg.dataout[2]
+dataout[3] <= regn:reg.dataout[3]
+dataout[4] <= regn:reg.dataout[4]
+dataout[5] <= regn:reg.dataout[5]
+dataout[6] <= regn:reg.dataout[6]
+dataout[7] <= regn:reg.dataout[7]
+
+
+|AccN_Demo|accn:inst|addern:adder
+operand0[0] => Add0.IN8
+operand0[1] => Add0.IN7
+operand0[2] => Add0.IN6
+operand0[3] => Add0.IN5
+operand0[4] => Add0.IN4
+operand0[5] => Add0.IN3
+operand0[6] => Add0.IN2
+operand0[7] => Add0.IN1
+operand1[0] => Add0.IN16
+operand1[1] => Add0.IN15
+operand1[2] => Add0.IN14
+operand1[3] => Add0.IN13
+operand1[4] => Add0.IN12
+operand1[5] => Add0.IN11
+operand1[6] => Add0.IN10
+operand1[7] => Add0.IN9
+result[0] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[4] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[5] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[6] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[7] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AccN_Demo|accn:inst|regn:reg
+reset => dataout[0]~reg0.ACLR
+reset => dataout[1]~reg0.ACLR
+reset => dataout[2]~reg0.ACLR
+reset => dataout[3]~reg0.ACLR
+reset => dataout[4]~reg0.ACLR
+reset => dataout[5]~reg0.ACLR
+reset => dataout[6]~reg0.ACLR
+reset => dataout[7]~reg0.ACLR
+enable => dataout[7]~reg0.ENA
+enable => dataout[6]~reg0.ENA
+enable => dataout[5]~reg0.ENA
+enable => dataout[4]~reg0.ENA
+enable => dataout[3]~reg0.ENA
+enable => dataout[2]~reg0.ENA
+enable => dataout[1]~reg0.ENA
+enable => dataout[0]~reg0.ENA
+clock => dataout[0]~reg0.CLK
+clock => dataout[1]~reg0.CLK
+clock => dataout[2]~reg0.CLK
+clock => dataout[3]~reg0.CLK
+clock => dataout[4]~reg0.CLK
+clock => dataout[5]~reg0.CLK
+clock => dataout[6]~reg0.CLK
+clock => dataout[7]~reg0.CLK
+datain[0] => dataout[0]~reg0.DATAIN
+datain[1] => dataout[1]~reg0.DATAIN
+datain[2] => dataout[2]~reg0.DATAIN
+datain[3] => dataout[3]~reg0.DATAIN
+datain[4] => dataout[4]~reg0.DATAIN
+datain[5] => dataout[5]~reg0.DATAIN
+datain[6] => dataout[6]~reg0.DATAIN
+datain[7] => dataout[7]~reg0.DATAIN
+dataout[0] <= dataout[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dataout[1] <= dataout[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dataout[2] <= dataout[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dataout[3] <= dataout[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dataout[4] <= dataout[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dataout[5] <= dataout[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dataout[6] <= dataout[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dataout[7] <= dataout[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
