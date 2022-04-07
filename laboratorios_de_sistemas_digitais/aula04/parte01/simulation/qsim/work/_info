@@ -1,0 +1,186 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula04/parte01/simulation/qsim
+Eflipflopd
+Z1 w1649555304
+Z2 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 JX^YokbeM8:bL?Pj@;1Jd1
+Z3 DPx10 cycloneive 21 cycloneive_components 0 22 Lf2433zWNi5^RHNT=BHD60
+Z4 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z5 DPx6 altera 11 dffeas_pack 0 22 dbC[kT^o8P[ggjb1if:RT1
+Z6 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z9 DPx6 altera 28 altera_primitives_components 0 22 PoC3B_7fao?IDTS[NR5Q62
+R0
+Z10 8FlipFlopD_Demo.vho
+Z11 FFlipFlopD_Demo.vho
+l0
+L37
+VHKko0V;jYIBDoe241c3OF0
+!s100 W6A_70bD6aV9K1KNb[]j40
+Z12 OV;C;10.5b;63
+32
+Z13 !s110 1649555305
+!i10b 1
+Z14 !s108 1649555305.000000
+Z15 !s90 -work|work|FlipFlopD_Demo.vho|
+Z16 !s107 FlipFlopD_Demo.vho|
+!i113 1
+Z17 o-work work
+Z18 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 9 flipflopd 0 22 HKko0V;jYIBDoe241c3OF0
+l70
+L47
+V:l<;0eiF[XcjOU]@ZGL[k0
+!s100 a4anL3I88>i7>B@6CEfN?3
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Eflipflopd_vhd_vec_tst
+Z19 w1649555303
+R7
+R8
+R0
+Z20 8FlipFlopDSim.vwf.vht
+Z21 FFlipFlopDSim.vwf.vht
+l0
+L32
+VEKnG1YM2ZWP^U;h6^kfbP3
+!s100 XkX_k@;K>SKJERCIQ]JQ=0
+R12
+32
+R13
+!i10b 1
+R14
+Z22 !s90 -work|work|FlipFlopDSim.vwf.vht|
+Z23 !s107 FlipFlopDSim.vwf.vht|
+!i113 1
+R17
+R18
+Aflipflopd_arch
+R7
+R8
+DEx4 work 21 flipflopd_vhd_vec_tst 0 22 EKnG1YM2ZWP^U;h6^kfbP3
+l51
+L34
+Vn:DbK5oU72gE_@9Z6INE[2
+!s100 Keo^gj<aMo9>KQEJ<lH^z2
+R12
+32
+R13
+!i10b 1
+R14
+R22
+R23
+!i113 1
+R17
+R18
+Elatch1b
+Z24 w1649556792
+R4
+R2
+R6
+R7
+R8
+R3
+R0
+R10
+R11
+l0
+L35
+Vn3AXoGz0lNZ3<Z@LX9kYe0
+!s100 TS^XLFk=4I0fA=nR`m?XE1
+R12
+32
+Z25 !s110 1649556793
+!i10b 1
+Z26 !s108 1649556793.000000
+R15
+R16
+!i113 1
+R17
+R18
+Astructure
+R4
+R2
+R6
+R7
+R8
+R3
+DEx4 work 7 latch1b 0 22 n3AXoGz0lNZ3<Z@LX9kYe0
+l61
+L43
+VU_Qch:Jzkm3BI<n<0a6[O1
+!s100 `[QnFS?CDaH?]BUgdMm701
+R12
+32
+R25
+!i10b 1
+R26
+R15
+R16
+!i113 1
+R17
+R18
+Elatch1b_vhd_vec_tst
+Z27 w1649556791
+R7
+R8
+R0
+Z28 8Latch1BSim.vwf.vht
+Z29 FLatch1BSim.vwf.vht
+l0
+L32
+V9TA`[XSmo6SH5Vz@;DPg31
+!s100 =8da6_TnGKA2cA495z5TD0
+R12
+32
+R25
+!i10b 1
+R26
+Z30 !s90 -work|work|Latch1BSim.vwf.vht|
+Z31 !s107 Latch1BSim.vwf.vht|
+!i113 1
+R17
+R18
+Alatch1b_arch
+R7
+R8
+Z32 DEx4 work 19 latch1b_vhd_vec_tst 0 22 9TA`[XSmo6SH5Vz@;DPg31
+l47
+L34
+Z33 VXW;:EARzYjHAXIC0zM@dN1
+Z34 !s100 Pb=:hlo5[Qal>nADdZVTX0
+R12
+32
+R25
+!i10b 1
+R26
+R30
+R31
+!i113 1
+R17
+R18

@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, /home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula04/parte01/FlipFlopD.vhd
+source_file = 1, /home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula04/parte01/FlipFlopDSim.vwf
+source_file = 1, /home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula04/parte01/FlipFlopD_Demo.vhd
+source_file = 1, /home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula04/parte01/Latch1B.vhd
+source_file = 1, /home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula04/parte01/Latch1BSim.vwf
+source_file = 1, /opt/intelFPGA_lite/19.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, /opt/intelFPGA_lite/19.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, /opt/intelFPGA_lite/19.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, /opt/intelFPGA_lite/19.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, /home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula04/parte01/db/FlipFlopD_Demo.cbx.xml
+design_name = latch1b
+instance = comp, \q~output\, q~output, latch1b, 1
+instance = comp, \d~input\, d~input, latch1b, 1
+instance = comp, \clk~input\, clk~input, latch1b, 1
+instance = comp, \q$latch\, q$latch, latch1b, 1
