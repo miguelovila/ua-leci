@@ -1,0 +1,30 @@
+|FreqDivider
+clock_in => s_counter[0].CLK
+clock_in => s_counter[1].CLK
+clock_in => s_counter[2].CLK
+clock_in => s_counter[3].CLK
+clock_in => s_counter[4].CLK
+clock_in => s_counter[5].CLK
+clock_in => s_counter[6].CLK
+clock_in => s_counter[7].CLK
+clock_in => s_counter[8].CLK
+clock_in => s_counter[9].CLK
+clock_in => s_counter[10].CLK
+clock_in => s_counter[11].CLK
+clock_in => s_counter[12].CLK
+clock_in => s_counter[13].CLK
+clock_in => s_counter[14].CLK
+clock_in => s_counter[15].CLK
+clock_in => s_counter[16].CLK
+clock_in => s_counter[17].CLK
+clock_in => s_counter[18].CLK
+clock_in => s_counter[19].CLK
+clock_in => s_counter[20].CLK
+clock_in => s_counter[21].CLK
+clock_in => s_counter[22].CLK
+clock_in => s_counter[23].CLK
+clock_in => s_counter[24].CLK
+clock_in => s_clock_out.CLK
+clock_out <= s_clock_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
