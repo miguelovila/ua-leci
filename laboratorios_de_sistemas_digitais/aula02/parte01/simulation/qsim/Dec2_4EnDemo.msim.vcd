@@ -1,0 +1,175 @@
+$comment
+	File created using the following command:
+		vcd file Dec2_4EnDemo.msim.vcd -direction
+$end
+$date
+	Tue Mar 22 10:46:13 2022
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module dec2_4endemo_vhd_vec_tst $end
+$var wire 1 ! ledg [3] $end
+$var wire 1 " ledg [2] $end
+$var wire 1 # ledg [1] $end
+$var wire 1 $ ledg [0] $end
+$var wire 1 % sw [2] $end
+$var wire 1 & sw [1] $end
+$var wire 1 ' sw [0] $end
+
+$scope module i1 $end
+$var wire 1 ( gnd $end
+$var wire 1 ) vcc $end
+$var wire 1 * unknown $end
+$var wire 1 + devoe $end
+$var wire 1 , devclrn $end
+$var wire 1 - devpor $end
+$var wire 1 . ww_devoe $end
+$var wire 1 / ww_devclrn $end
+$var wire 1 0 ww_devpor $end
+$var wire 1 1 ww_sw [2] $end
+$var wire 1 2 ww_sw [1] $end
+$var wire 1 3 ww_sw [0] $end
+$var wire 1 4 ww_ledg [3] $end
+$var wire 1 5 ww_ledg [2] $end
+$var wire 1 6 ww_ledg [1] $end
+$var wire 1 7 ww_ledg [0] $end
+$var wire 1 8 \ledg[0]~output_o\ $end
+$var wire 1 9 \ledg[1]~output_o\ $end
+$var wire 1 : \ledg[2]~output_o\ $end
+$var wire 1 ; \ledg[3]~output_o\ $end
+$var wire 1 < \sw[1]~input_o\ $end
+$var wire 1 = \sw[2]~input_o\ $end
+$var wire 1 > \sw[0]~input_o\ $end
+$var wire 1 ? \system_core|outputs[0]~0_combout\ $end
+$var wire 1 @ \system_core|outputs[1]~1_combout\ $end
+$var wire 1 A \system_core|outputs[2]~2_combout\ $end
+$var wire 1 B \system_core|outputs[3]~3_combout\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0(
+1)
+x*
+1+
+1,
+1-
+1.
+1/
+10
+08
+09
+0:
+0;
+0<
+0=
+0>
+0?
+0@
+0A
+0B
+0%
+0&
+0'
+01
+02
+03
+04
+05
+06
+07
+0!
+0"
+0#
+0$
+$end
+#80000
+1'
+13
+1>
+#160000
+0'
+03
+0>
+#180000
+1&
+12
+1<
+#240000
+1'
+13
+1>
+#320000
+0'
+0&
+1%
+03
+02
+11
+1=
+0<
+0>
+1?
+18
+17
+1$
+#400000
+1'
+13
+1>
+0?
+1@
+19
+08
+16
+07
+0$
+1#
+#480000
+0'
+1&
+03
+12
+1<
+0>
+0@
+1A
+1:
+09
+15
+06
+0#
+1"
+#560000
+1'
+13
+1>
+0A
+1B
+1;
+0:
+14
+05
+0"
+1!
+#640000
+0'
+0&
+0%
+03
+02
+01
+0=
+0<
+0>
+0B
+0;
+04
+0!
+#1000000
