@@ -1,0 +1,401 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula03/parte01/simulation/qsim
+Eadder4
+Z1 w1648559328
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 JX^YokbeM8:bL?Pj@;1Jd1
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 Lf2433zWNi5^RHNT=BHD60
+R0
+Z8 8AdderDemo.vho
+Z9 FAdderDemo.vho
+l0
+L35
+VjBmjcS4ah[fc_FkVNEd?B3
+!s100 kH]CE[JBX3z7MMnZ>eE1>2
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1648559329
+!i10b 1
+Z12 !s108 1648559329.000000
+Z13 !s90 -work|work|AdderDemo.vho|
+Z14 !s107 AdderDemo.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 6 adder4 0 22 jBmjcS4ah[fc_FkVNEd?B3
+l85
+L45
+VLAKM=`JHk9<h6QV3]7c;_1
+!s100 ]=1EbLlbFjkczBFO?a;lH3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Eadder4_vhd_vec_tst
+Z17 w1648559327
+R5
+R6
+R0
+Z18 8Adder4Sim.vwf.vht
+Z19 FAdder4Sim.vwf.vht
+l0
+L32
+VUioOgN25L2kk=aZ[ZLKPA1
+!s100 o>;@g>m1_Y>?Ra]F`_J<Z2
+R10
+32
+R11
+!i10b 1
+R12
+Z20 !s90 -work|work|Adder4Sim.vwf.vht|
+Z21 !s107 Adder4Sim.vwf.vht|
+!i113 1
+R15
+R16
+Aadder4_arch
+R5
+R6
+DEx4 work 18 adder4_vhd_vec_tst 0 22 UioOgN25L2kk=aZ[ZLKPA1
+l51
+L34
+V71e^mXU3BTA:d@b=SjAi[2
+!s100 DPiD>BN:47M=KPTE9e?Gi3
+R10
+32
+R11
+!i10b 1
+R12
+R20
+R21
+!i113 1
+R15
+R16
+Eadderdemo
+Z22 w1648559257
+R2
+R3
+R4
+R5
+R6
+R7
+R0
+R8
+R9
+l0
+L78
+VogT@m^`F3LiC58NRX;EIb1
+!s100 Ob<>[M;hb[HR3PQgF?:jJ2
+R10
+32
+Z23 !s110 1648559257
+!i10b 1
+Z24 !s108 1648559257.000000
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 9 adderdemo 0 22 ogT@m^`F3LiC58NRX;EIb1
+l164
+L111
+V3P;^lz1gGQ4[Wf8ShF3b`2
+!s100 OohSk]T[QX3Z65bFk6QEG0
+R10
+32
+R23
+!i10b 1
+R24
+R13
+R14
+!i113 1
+R15
+R16
+Eadderdemo_vhd_vec_tst
+Z25 w1648559256
+R5
+R6
+R0
+Z26 8FullAdderSim.vwf.vht
+Z27 FFullAdderSim.vwf.vht
+l0
+L32
+V?7R5oX6Aa^J5Zzik`8dMM2
+!s100 ZkVZHFzP>lK@>gm>a96NQ0
+R10
+32
+R23
+!i10b 1
+R24
+Z28 !s90 -work|work|FullAdderSim.vwf.vht|
+Z29 !s107 FullAdderSim.vwf.vht|
+!i113 1
+R15
+R16
+Aadderdemo_arch
+R5
+R6
+DEx4 work 21 adderdemo_vhd_vec_tst 0 22 ?7R5oX6Aa^J5Zzik`8dMM2
+l63
+L34
+VMFbWFm_nncm<QD7M?I3@@1
+!s100 lSnVOQK0J:i2RR;P3kjzn0
+R10
+32
+R23
+!i10b 1
+R24
+R28
+R29
+!i113 1
+R15
+R16
+Eaddsub4
+Z30 w1648561909
+R2
+R3
+R4
+R5
+R6
+R7
+R0
+R8
+R9
+l0
+L35
+VK^nJemfJ?=MbFCF]HL1F61
+!s100 N3;GKAbLE;81XhFPW]kdU2
+R10
+32
+Z31 !s110 1648561910
+!i10b 1
+Z32 !s108 1648561910.000000
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 7 addsub4 0 22 K^nJemfJ?=MbFCF]HL1F61
+l87
+L45
+VCC@^;YV:CLe_zKzKG7lT_1
+!s100 UV<=<3iU=m?=S:IfFZ__b2
+R10
+32
+R31
+!i10b 1
+R32
+R13
+R14
+!i113 1
+R15
+R16
+Eaddsub4_vhd_vec_tst
+Z33 w1648561908
+R5
+R6
+R0
+Z34 8AddSub4Sim.vwf.vht
+Z35 FAddSub4Sim.vwf.vht
+l0
+L32
+VQ;<K2lDBK?X@T[f<WC@9N2
+!s100 ^B?4F=3dIh?iF^H?R6CRf2
+R10
+32
+R31
+!i10b 1
+R32
+Z36 !s90 -work|work|AddSub4Sim.vwf.vht|
+Z37 !s107 AddSub4Sim.vwf.vht|
+!i113 1
+R15
+R16
+Aaddsub4_arch
+R5
+R6
+Z38 DEx4 work 19 addsub4_vhd_vec_tst 0 22 Q;<K2lDBK?X@T[f<WC@9N2
+l51
+L34
+V2>WCDYAW>=[<Rj:MmbZ@l3
+!s100 g[NzN]>R@7Z;@@<U]=O_[1
+R10
+32
+R31
+!i10b 1
+R32
+R36
+R37
+!i113 1
+R15
+R16
+Efulladder
+Z39 w1648559297
+R2
+R3
+R4
+R5
+R6
+R7
+R0
+R8
+R9
+l0
+L35
+V<4D?P4O??EF5Z=2R;oMd03
+!s100 8D]iNmP4a<<KZ`6hmTG0h0
+R10
+32
+Z40 !s110 1648559297
+!i10b 1
+Z41 !s108 1648559297.000000
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 9 fulladder 0 22 <4D?P4O??EF5Z=2R;oMd03
+l68
+L45
+VDl2Z1ZE:<gN66lEkJQP]L0
+!s100 CzHbiSH0O>noZin8@H>_z3
+R10
+32
+R40
+!i10b 1
+R41
+R13
+R14
+!i113 1
+R15
+R16
+Efulladder_vhd_vec_tst
+Z42 w1648559296
+R5
+R6
+R0
+R26
+R27
+l0
+L32
+VOizP<AXi`m26;5^OJ`8H<3
+!s100 jZ;oIC^VA=gWD;m<99@jo3
+R10
+32
+Z43 !s110 1648559298
+!i10b 1
+R41
+R28
+R29
+!i113 1
+R15
+R16
+Afulladder_arch
+R5
+R6
+DEx4 work 21 fulladder_vhd_vec_tst 0 22 OizP<AXi`m26;5^OJ`8H<3
+l51
+L34
+VSJeGX7o9Si]bWATnf?:HT2
+!s100 9H[C^Jb6j>fHfPB^_2g7Z2
+R10
+32
+R43
+!i10b 1
+R41
+R28
+R29
+!i113 1
+R15
+R16
+Ehard_block
+R22
+R2
+R3
+R4
+R5
+R6
+R7
+R0
+R8
+R9
+l0
+L35
+VB]0;STalBkCB1_B4BXQDW2
+!s100 >mXi5[`cD`bFC`UBKA<om3
+R10
+32
+R23
+!i10b 1
+R24
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 B]0;STalBkCB1_B4BXQDW2
+l65
+L51
+Via>5o7W??azG@W@@eFOTF0
+!s100 [5;Wd8QGQ>@2NGoJ1I]Y43
+R10
+32
+R23
+!i10b 1
+R24
+R13
+R14
+!i113 1
+R15
+R16
