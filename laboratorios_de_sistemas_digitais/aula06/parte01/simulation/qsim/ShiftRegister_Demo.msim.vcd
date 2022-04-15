@@ -1,0 +1,358 @@
+$comment
+	File created using the following command:
+		vcd file ShiftRegister_Demo.msim.vcd -direction
+$end
+$date
+	Thu Apr 21 08:07:49 2022
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module shiftregister4_vhd_vec_tst $end
+$var wire 1 ! clockin $end
+$var wire 1 " dataout [3] $end
+$var wire 1 # dataout [2] $end
+$var wire 1 $ dataout [1] $end
+$var wire 1 % dataout [0] $end
+$var wire 1 & serialin $end
+
+$scope module i1 $end
+$var wire 1 ' gnd $end
+$var wire 1 ( vcc $end
+$var wire 1 ) unknown $end
+$var wire 1 * devoe $end
+$var wire 1 + devclrn $end
+$var wire 1 , devpor $end
+$var wire 1 - ww_devoe $end
+$var wire 1 . ww_devclrn $end
+$var wire 1 / ww_devpor $end
+$var wire 1 0 ww_serialin $end
+$var wire 1 1 ww_clockin $end
+$var wire 1 2 ww_dataout [3] $end
+$var wire 1 3 ww_dataout [2] $end
+$var wire 1 4 ww_dataout [1] $end
+$var wire 1 5 ww_dataout [0] $end
+$var wire 1 6 \dataout[0]~output_o\ $end
+$var wire 1 7 \dataout[1]~output_o\ $end
+$var wire 1 8 \dataout[2]~output_o\ $end
+$var wire 1 9 \dataout[3]~output_o\ $end
+$var wire 1 : \clockin~input_o\ $end
+$var wire 1 ; \serialin~input_o\ $end
+$var wire 1 < sdataout [3] $end
+$var wire 1 = sdataout [2] $end
+$var wire 1 > sdataout [1] $end
+$var wire 1 ? sdataout [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1&
+0'
+1(
+x)
+1*
+1+
+1,
+1-
+1.
+1/
+10
+01
+06
+07
+08
+09
+0:
+1;
+02
+03
+04
+05
+0<
+0=
+0>
+0?
+0"
+0#
+0$
+0%
+$end
+#20000
+1!
+11
+1:
+1?
+16
+15
+1%
+#40000
+0!
+01
+0:
+#60000
+1!
+11
+1:
+1>
+17
+14
+1$
+#80000
+0!
+01
+0:
+#100000
+1!
+11
+1:
+1=
+18
+13
+1#
+#120000
+0!
+01
+0:
+#140000
+1!
+11
+1:
+1<
+19
+12
+1"
+#150000
+0&
+00
+0;
+#160000
+0!
+01
+0:
+#180000
+1!
+11
+1:
+0?
+06
+05
+0%
+#200000
+0!
+01
+0:
+#220000
+1!
+11
+1:
+0>
+07
+04
+0$
+#240000
+0!
+01
+0:
+#250000
+1&
+10
+1;
+#260000
+1!
+11
+1:
+1?
+0=
+08
+16
+03
+15
+1%
+0#
+#280000
+0!
+01
+0:
+#300000
+1!
+11
+1:
+1>
+0<
+09
+17
+02
+14
+1$
+0"
+#310000
+0&
+00
+0;
+#320000
+0!
+01
+0:
+#340000
+1!
+11
+1:
+0?
+1=
+18
+06
+13
+05
+0%
+1#
+#360000
+0!
+01
+0:
+#380000
+1!
+11
+1:
+0>
+1<
+19
+07
+12
+04
+0$
+1"
+#400000
+0!
+01
+0:
+#420000
+1!
+11
+1:
+0=
+08
+03
+0#
+#440000
+0!
+01
+0:
+#460000
+1!
+11
+1:
+0<
+09
+02
+0"
+#480000
+0!
+01
+0:
+#500000
+1!
+11
+1:
+#520000
+0!
+01
+0:
+#540000
+1!
+11
+1:
+#560000
+0!
+01
+0:
+#580000
+1!
+11
+1:
+#600000
+0!
+01
+0:
+#620000
+1!
+11
+1:
+#640000
+0!
+01
+0:
+#660000
+1!
+11
+1:
+#680000
+0!
+01
+0:
+#700000
+1!
+11
+1:
+#720000
+0!
+01
+0:
+#740000
+1!
+11
+1:
+#760000
+0!
+01
+0:
+#780000
+1!
+11
+1:
+#800000
+0!
+01
+0:
+#820000
+1!
+11
+1:
+#840000
+0!
+01
+0:
+#860000
+1!
+11
+1:
+#880000
+0!
+01
+0:
+#900000
+1!
+11
+1:
+#920000
+0!
+01
+0:
+#940000
+1!
+11
+1:
+#960000
+0!
+01
+0:
+#980000
+1!
+11
+1:
+#1000000
