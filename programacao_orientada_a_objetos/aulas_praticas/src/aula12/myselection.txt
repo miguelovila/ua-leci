@@ -1,0 +1,3 @@
+Filme{nome=Deliver Us From Eva, pontuacao=61.8, classificacao=R, genero=comedy, duracao=105}
+Filme{nome=Intolerable Cruelty, pontuacao=67.1, classificacao=PG-13, genero=comedy, duracao=100}
+Filme{nome=Matchstick Men, pontuacao=68.9, classificacao=PG-13, genero=comedy, duracao=116}
