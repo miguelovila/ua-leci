@@ -1,0 +1,89 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/maomv/Repositories/laboratorio-de-sistemas-digitais/mini-projeto/simulation/modelsim
+Eshiftreg6bitsleft
+Z1 w1652954202
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8/home/maomv/Repositories/laboratorio-de-sistemas-digitais/mini-projeto/ShiftReg6BitsLeft.vhd
+Z5 F/home/maomv/Repositories/laboratorio-de-sistemas-digitais/mini-projeto/ShiftReg6BitsLeft.vhd
+l0
+L4
+Vf2lgZPgG?S;OOGJa3PLQ62
+!s100 0D?`TZA4:L;IQXLB9:Y[h3
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1652954253
+!i10b 1
+Z8 !s108 1652954252.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|/home/maomv/Repositories/laboratorio-de-sistemas-digitais/mini-projeto/ShiftReg6BitsLeft.vhd|
+Z10 !s107 /home/maomv/Repositories/laboratorio-de-sistemas-digitais/mini-projeto/ShiftReg6BitsLeft.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+Z13 DEx4 work 17 shiftreg6bitsleft 0 22 f2lgZPgG?S;OOGJa3PLQ62
+l15
+L13
+V9:KOO9B_e5U6oFj2O_iD53
+!s100 ZbUIEZ[AWDPLH=eY_4]_n2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eshiftreg6bitslefttb
+Z14 w1652954236
+R2
+R3
+R0
+Z15 8/home/maomv/Repositories/laboratorio-de-sistemas-digitais/mini-projeto/ShiftReg6BitsLeftTb.vhd
+Z16 F/home/maomv/Repositories/laboratorio-de-sistemas-digitais/mini-projeto/ShiftReg6BitsLeftTb.vhd
+l0
+L4
+V=`GOWI]V:Yi4m>lD@^MGz3
+!s100 hS=Nl84OdGBz2V<;99P1;1
+R6
+32
+Z17 !s110 1652954261
+!i10b 1
+Z18 !s108 1652954261.000000
+Z19 !s90 -reportprogress|300|-work|work|/home/maomv/Repositories/laboratorio-de-sistemas-digitais/mini-projeto/ShiftReg6BitsLeftTb.vhd|
+Z20 !s107 /home/maomv/Repositories/laboratorio-de-sistemas-digitais/mini-projeto/ShiftReg6BitsLeftTb.vhd|
+!i113 1
+Z21 o-work work
+R12
+Astimulus
+R13
+R2
+R3
+DEx4 work 19 shiftreg6bitslefttb 0 22 =`GOWI]V:Yi4m>lD@^MGz3
+l10
+L7
+V4BT?aanf2_lnHX]oVjd5o2
+!s100 ]WMa]`<D>O5Gb0D6G<MeV2
+R6
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R21
+R12
