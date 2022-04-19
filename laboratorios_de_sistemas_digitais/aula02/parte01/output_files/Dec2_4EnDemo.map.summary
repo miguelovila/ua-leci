@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Mar 22 10:41:57 2022
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : Dec2_4EnDemo
+Top-level Entity Name : dec2_4endemo
+Family : Cyclone IV E
+Total logic elements : 4
+    Total combinational functions : 4
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 7
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
