@@ -1,0 +1,31 @@
+|LogicTop
+LEDG[0] <= logicunit:inst.invout
+LEDG[1] <= logicunit:inst.andout
+LEDG[2] <= logicunit:inst.orout
+LEDG[3] <= logicunit:inst.xorout
+LEDG[4] <= logicunit:inst.nandout
+LEDG[5] <= logicunit:inst.norout
+SW[0] => logicunit:inst.input0
+SW[1] => logicunit:inst.input1
+
+
+|LogicTop|logicunit:inst
+input0 => andout.IN0
+input0 => orout.IN0
+input0 => xorout.IN0
+input0 => nandout.IN0
+input0 => norout.IN0
+input0 => invout.DATAIN
+input1 => andout.IN1
+input1 => orout.IN1
+input1 => xorout.IN1
+input1 => nandout.IN1
+input1 => norout.IN1
+invout <= input0.DB_MAX_OUTPUT_PORT_TYPE
+andout <= andout.DB_MAX_OUTPUT_PORT_TYPE
+orout <= orout.DB_MAX_OUTPUT_PORT_TYPE
+xorout <= xorout.DB_MAX_OUTPUT_PORT_TYPE
+nandout <= nandout.DB_MAX_OUTPUT_PORT_TYPE
+norout <= norout.DB_MAX_OUTPUT_PORT_TYPE
+
+
