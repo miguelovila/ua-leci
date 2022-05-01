@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, /home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula05/parte03/TimerN.vhd
+source_file = 1, /home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula05/parte03/TimerNSim.vwf
+source_file = 1, /opt/intelFPGA_lite/19.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, /opt/intelFPGA_lite/19.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, /opt/intelFPGA_lite/19.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, /opt/intelFPGA_lite/19.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, /home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula05/parte03/db/TimerN_Demo.cbx.xml
+design_name = timern
+instance = comp, \timerout~output\, timerout~output, timern, 1
+instance = comp, \reset~input\, reset~input, timern, 1
+instance = comp, \start~input\, start~input, timern, 1
+instance = comp, \enable~input\, enable~input, timern, 1
+instance = comp, \clock~input\, clock~input, timern, 1
