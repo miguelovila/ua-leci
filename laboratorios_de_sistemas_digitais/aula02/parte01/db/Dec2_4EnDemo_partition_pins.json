@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ledg[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ledg[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ledg[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ledg[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sw[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sw[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sw[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
