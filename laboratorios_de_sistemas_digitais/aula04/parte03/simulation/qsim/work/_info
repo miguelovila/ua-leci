@@ -1,0 +1,190 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula04/parte03/simulation/qsim
+Ecounterdown4
+Z1 w1649666103
+Z2 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 JX^YokbeM8:bL?Pj@;1Jd1
+Z3 DPx10 cycloneive 21 cycloneive_components 0 22 Lf2433zWNi5^RHNT=BHD60
+Z4 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z5 DPx6 altera 11 dffeas_pack 0 22 dbC[kT^o8P[ggjb1if:RT1
+Z6 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z9 DPx6 altera 28 altera_primitives_components 0 22 PoC3B_7fao?IDTS[NR5Q62
+R0
+Z10 8Counter_Demo.vho
+Z11 FCounter_Demo.vho
+l0
+L37
+V<8IJ=bkhL<N;a7[M6jFco1
+!s100 zfRbCOWA[9`bCEEjzlB`g3
+Z12 OV;C;10.5b;63
+32
+Z13 !s110 1649666105
+!i10b 1
+Z14 !s108 1649666104.000000
+Z15 !s90 -work|work|Counter_Demo.vho|
+Z16 !s107 Counter_Demo.vho|
+!i113 1
+Z17 o-work work
+Z18 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 12 counterdown4 0 22 <8IJ=bkhL<N;a7[M6jFco1
+l67
+L44
+V7C]F@JJMzLR6]k@D[lFMJ3
+!s100 z@K_WUfAcdN9=F7bznP?^3
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Ecounterdown4_vhd_vec_tst
+Z19 w1649666102
+R7
+R8
+R0
+Z20 8CounterDown4Sim.vwf.vht
+Z21 FCounterDown4Sim.vwf.vht
+l0
+L32
+Vf7RXk3d8=z>]9`foDJioz0
+!s100 >1?]?Eh6d3kT>C_OKQRb`0
+R12
+32
+R13
+!i10b 1
+Z22 !s108 1649666105.000000
+Z23 !s90 -work|work|CounterDown4Sim.vwf.vht|
+Z24 !s107 CounterDown4Sim.vwf.vht|
+!i113 1
+R17
+R18
+Acounterdown4_arch
+R7
+R8
+DEx4 work 24 counterdown4_vhd_vec_tst 0 22 f7RXk3d8=z>]9`foDJioz0
+l45
+L34
+VF7E<U6S?i]R3L`eZ;iBgi2
+!s100 YPO7=1EJ4PbmSg`K@b0[V2
+R12
+32
+R13
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R17
+R18
+Ecounterupdown4
+Z25 w1649667155
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R0
+R10
+R11
+l0
+L37
+V4`H?oTj`4W@N]@`0QCzdU0
+!s100 X6dS>:BdmgY]G?V<X4ZzR1
+R12
+32
+Z26 !s110 1649667156
+!i10b 1
+Z27 !s108 1649667156.000000
+R15
+R16
+!i113 1
+R17
+R18
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 14 counterupdown4 0 22 4`H?oTj`4W@N]@`0QCzdU0
+l76
+L46
+VXDm]_Ob3L>PQ8lJWjZ]eo0
+!s100 Ph[0IWTgNC[KgP8[RC`4W1
+R12
+32
+R26
+!i10b 1
+R27
+R15
+R16
+!i113 1
+R17
+R18
+Ecounterupdown4_vhd_vec_tst
+R25
+R7
+R8
+R0
+Z28 8CounterUpDown4Sim.vwf.vht
+Z29 FCounterUpDown4Sim.vwf.vht
+l0
+L32
+V_?zG9Cn7heMS9230R]Iz`1
+!s100 2`Dz^STn5hRA`h3iBzNIT1
+R12
+32
+R26
+!i10b 1
+R27
+Z30 !s90 -work|work|CounterUpDown4Sim.vwf.vht|
+Z31 !s107 CounterUpDown4Sim.vwf.vht|
+!i113 1
+R17
+R18
+Acounterupdown4_arch
+R7
+R8
+Z32 DEx4 work 26 counterupdown4_vhd_vec_tst 0 22 _?zG9Cn7heMS9230R]Iz`1
+l49
+L34
+V@[F@W@^A`JeSl9_nmHO402
+!s100 7GR0KgI8V`gebobIcX5id0
+R12
+32
+R26
+!i10b 1
+R27
+R30
+R31
+!i113 1
+R17
+R18
