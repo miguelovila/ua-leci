@@ -1,0 +1,182 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula02/parte02/simulation/qsim
+Emux2_1
+Z1 w1647947437
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 JX^YokbeM8:bL?Pj@;1Jd1
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 Lf2433zWNi5^RHNT=BHD60
+R0
+Z8 8Mux2_1Demo.vho
+Z9 FMux2_1Demo.vho
+l0
+L35
+VA9WVMW7l_]GDbNY`Rg1?33
+!s100 W1AVY62?W<6Cj2mz]WAe:0
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1647947437
+!i10b 1
+Z12 !s108 1647947437.000000
+Z13 !s90 -work|work|Mux2_1Demo.vho|
+Z14 !s107 Mux2_1Demo.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 6 mux2_1 0 22 A9WVMW7l_]GDbNY`Rg1?33
+l60
+L42
+VbW[oB<jTc^ebDMTB6NXT81
+!s100 Q^z:0fg[59LeE5Yz`A6]_1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Emux2_1_vhd_vec_tst
+Z17 w1647947436
+R5
+R6
+R0
+Z18 8Mux2_1Sim.vwf.vht
+Z19 FMux2_1Sim.vwf.vht
+l0
+L32
+V4EoOi@=NePa:@N9i_?8ah0
+!s100 hY>:]?9fI_SHiz>N]YF=:2
+R10
+32
+R11
+!i10b 1
+R12
+Z20 !s90 -work|work|Mux2_1Sim.vwf.vht|
+Z21 !s107 Mux2_1Sim.vwf.vht|
+!i113 1
+R15
+R16
+Amux2_1_arch
+R5
+R6
+DEx4 work 18 mux2_1_vhd_vec_tst 0 22 4EoOi@=NePa:@N9i_?8ah0
+l45
+L34
+VUTC8Wc<[6aIlBRCLR:zcB0
+!s100 5ZHllg8@7Yaj]SIJmM<5k2
+R10
+32
+R11
+!i10b 1
+R12
+R20
+R21
+!i113 1
+R15
+R16
+Emux4_1
+Z22 w1647952972
+R2
+R3
+R4
+R5
+R6
+R7
+R0
+R8
+R9
+l0
+L35
+VQghR=e3Gc1RckRb56aAg[1
+!s100 HnRMn=9]52ZgdmJ4N2OFd2
+R10
+32
+Z23 !s110 1647952972
+!i10b 1
+Z24 !s108 1647952972.000000
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 6 mux4_1 0 22 QghR=e3Gc1RckRb56aAg[1
+l66
+L43
+V;VB<XjBASmj>V:z22n6[81
+!s100 nUYVFFzajDmbTLDT7cdLk0
+R10
+32
+R23
+!i10b 1
+R24
+R13
+R14
+!i113 1
+R15
+R16
+Emux4_1_vhd_vec_tst
+Z25 w1647952971
+R5
+R6
+R0
+Z26 8Mux4_1Sim.vwf.vht
+Z27 FMux4_1Sim.vwf.vht
+l0
+L32
+VSMzFoOJX1cA^dHQS@aA[12
+!s100 690l][2zG4J3OiV`3>SZB2
+R10
+32
+R23
+!i10b 1
+R24
+Z28 !s90 -work|work|Mux4_1Sim.vwf.vht|
+Z29 !s107 Mux4_1Sim.vwf.vht|
+!i113 1
+R15
+R16
+Amux4_1_arch
+R5
+R6
+DEx4 work 18 mux4_1_vhd_vec_tst 0 22 SMzFoOJX1cA^dHQS@aA[12
+l47
+L34
+V4oedZ9=QGe[eY1^c@0TZG2
+!s100 0iM8Vm]][VZ:L42<Ua?`G3
+R10
+32
+R23
+!i10b 1
+R24
+R28
+R29
+!i113 1
+R15
+R16
