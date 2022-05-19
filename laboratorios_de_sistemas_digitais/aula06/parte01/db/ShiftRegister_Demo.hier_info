@@ -1,0 +1,64 @@
+|ShiftRegister_Demo
+sw[0] => shiftregistern:shreg.serialin
+clock_50 => clkdividern:freqd.clkin
+ledr[0] << shiftregistern:shreg.dataout[0]
+ledr[1] << shiftregistern:shreg.dataout[1]
+ledr[2] << shiftregistern:shreg.dataout[2]
+ledr[3] << shiftregistern:shreg.dataout[3]
+ledr[4] << shiftregistern:shreg.dataout[4]
+ledr[5] << shiftregistern:shreg.dataout[5]
+ledr[6] << shiftregistern:shreg.dataout[6]
+ledr[7] << shiftregistern:shreg.dataout[7]
+
+
+|ShiftRegister_Demo|clkdividern:freqd
+clkin => s_divcounter[0].CLK
+clkin => s_divcounter[1].CLK
+clkin => s_divcounter[2].CLK
+clkin => s_divcounter[3].CLK
+clkin => s_divcounter[4].CLK
+clkin => s_divcounter[5].CLK
+clkin => s_divcounter[6].CLK
+clkin => s_divcounter[7].CLK
+clkin => s_divcounter[8].CLK
+clkin => s_divcounter[9].CLK
+clkin => s_divcounter[10].CLK
+clkin => s_divcounter[11].CLK
+clkin => s_divcounter[12].CLK
+clkin => s_divcounter[13].CLK
+clkin => s_divcounter[14].CLK
+clkin => s_divcounter[15].CLK
+clkin => s_divcounter[16].CLK
+clkin => s_divcounter[17].CLK
+clkin => s_divcounter[18].CLK
+clkin => s_divcounter[19].CLK
+clkin => s_divcounter[20].CLK
+clkin => s_divcounter[21].CLK
+clkin => s_divcounter[22].CLK
+clkin => s_divcounter[23].CLK
+clkin => s_divcounter[24].CLK
+clkin => s_divcounter[25].CLK
+clkin => clkout~reg0.CLK
+clkout <= clkout~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ShiftRegister_Demo|shiftregistern:shreg
+serialin => sdataout[0].DATAIN
+clockin => sdataout[0].CLK
+clockin => sdataout[1].CLK
+clockin => sdataout[2].CLK
+clockin => sdataout[3].CLK
+clockin => sdataout[4].CLK
+clockin => sdataout[5].CLK
+clockin => sdataout[6].CLK
+clockin => sdataout[7].CLK
+dataout[0] <= sdataout[0].DB_MAX_OUTPUT_PORT_TYPE
+dataout[1] <= sdataout[1].DB_MAX_OUTPUT_PORT_TYPE
+dataout[2] <= sdataout[2].DB_MAX_OUTPUT_PORT_TYPE
+dataout[3] <= sdataout[3].DB_MAX_OUTPUT_PORT_TYPE
+dataout[4] <= sdataout[4].DB_MAX_OUTPUT_PORT_TYPE
+dataout[5] <= sdataout[5].DB_MAX_OUTPUT_PORT_TYPE
+dataout[6] <= sdataout[6].DB_MAX_OUTPUT_PORT_TYPE
+dataout[7] <= sdataout[7].DB_MAX_OUTPUT_PORT_TYPE
+
+
