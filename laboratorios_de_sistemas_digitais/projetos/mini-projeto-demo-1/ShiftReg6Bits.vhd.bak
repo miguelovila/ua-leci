@@ -1,0 +1,114 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.NUMERIC_STD.ALL;
+
+ENTITY ShiftReg6Bits IS
+	PORT (
+		CLOCK_50 : IN STD_LOGIC;
+		KEY : IN STD_LOGIC_VECTOR(0 DOWNTO 0);
+		SW : IN STD_LOGIC_VECTOR(0 DOWNTO 0);
+		LEDG : OUT STD_LOGIC_VECTOR(5 DOWNTO 0));
+END ShiftReg6Bits;
+
+ARCHITECTURE Structural OF ShiftReg6Bits IS
+	SIGNAL s_1HzLane : STD_LOGIC;
+	SIGNAL s_Key0 : STD_LOGIC := '0';
+	SIGNAL s_Swi0 : STD_LOGIC := '0';
+	
+
+	SIGNAL s_key0_clean : STD_LOGIC := '0';
+	SIGNAL s_reset : STD_LOGIC := '0';
+
+	-- Contador binario
+	SIGNAL s_counter : STD_LOGIC_VECTOR(3 DOWNTO 0);
+
+	-- Botao start/stop (1 = start, 0 = stop)
+	SIGNAL s_key1_clean : STD_LOGIC := '0';
+	SIGNAL s_startStop : STD_LOGIC := '1';
+
+	-- Enable para o display de 7 segmentos
+	SIGNAL s_enableDisplay : STD_LOGIC;
+
+BEGIN
+
+	buttonsSync : PROCESS (CLOCK_50)
+	BEGIN
+		IF (rising_edge(CLOCK_50)) THEN
+			s_key0 <= KEY(0);
+			s_key1 <= KEY(1);
+		END IF;
+	END PROCESS;
+
+	debounceKEY0 : ENTITY work.DebounceUnit(Behavioral)
+		GENERIC MAP(
+			kHzClkFreq => 50_000,
+			mSecMinInWidth => 100,
+			inPolarity => '0',
+			outPolarity => '1')
+		PORT MAP(
+			refClk => CLOCK_50,
+			dirtyIn => s_key0,
+			pulsedOut => s_key0_clean);
+	dirtyIn => s_key0,
+	pulsedOut => s_key0_clean);
+
+	debounceKEY1 : ENTITY work.DebounceUnit(Behavioral)
+		GENERIC MAP(
+			kHzClkFreq => 50_000,
+			mSecMinInWidth => 100,
+			inPolarity => '0',
+			outPolarity => '1')
+		PORT MAP(
+			refClk => CLOCK_50,
+			dirtyIn => s_key1,
+			pulsedOut => s_key1_clean);
+dirtyIn => s_key1,
+	pulsedOut => s_key1_clean);
+
+	resetProcess : PROCESS (s_key0_clean)
+		BEGIN
+	s_reset <= s_key0_clean;
+		END PROCESS;
+
+startStopProcess : PROCESS (s_reset, s_key1_clean)
+		BEGIN
+	IF (s_reset = '1') THEN
+		s_startStop <= '0';
+			ELSIF (rising_edge(s_key1_clean)) THEN
+			s_startStop <= NOT s_startStop;
+			END IF;
+		END PROCESS;
+
+	displayPulseGenerator : ENTITY work.BlinkPulseGenerator(Behavioral)
+		GENERIC MAP(NUMBER_STEPS => 50_000_000)
+		PORT MAP(
+			clk => CLOCK_50,
+		reset => s_reset,
+			blink => s_displayPulse);
+	blink => s_displayPulse);
+
+	enableDisplayProcess : PROCESS (s_startStop, s_displayPulse)
+	BEGIN
+	IF (s_startStop = '1') THEN
+			s_enableDisplay <= '1';
+			ELSE
+			s_enableDisplay <= s_displayPulse;
+			END IF;
+		END PROCESS;
+
+	counterPulseGenerator : ENTITY work.EnablePulseGenerator(Behavioral)
+		GENERIC MAP(MAX => 25_000_000)
+		PORT MAP(
+			clk => CLOCK_50,
+			reset => s_reset,
+			pulse => s_enableCounterPulse);
+	pulse => s_enableCounterPulse);
+
+	counter : ENTITY work.CounterDown4(Behavioral)
+		PORT MAP(
+			clk => CLOCK_50,
+			enablePulse => s_enableCounterPulse,
+			enableStart => s_startStop,
+			reset => s_reset,
+			count => s_counter);
+	count => s_counter);
