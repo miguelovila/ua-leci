@@ -1,0 +1,96 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula05/parte01/simulation/qsim
+Ecmpn
+Z1 w1649777331
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 JX^YokbeM8:bL?Pj@;1Jd1
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 Lf2433zWNi5^RHNT=BHD60
+R0
+Z8 8CmpN_Demo.vho
+Z9 FCmpN_Demo.vho
+l0
+L35
+V1oQleE2mSdgA7?zmb31?a3
+!s100 `E=0mTQzg7@G9n]]Gm`_n0
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1649777333
+!i10b 1
+Z12 !s108 1649777333.000000
+Z13 !s90 -work|work|CmpN_Demo.vho|
+Z14 !s107 CmpN_Demo.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 4 cmpn 0 22 1oQleE2mSdgA7?zmb31?a3
+l105
+L46
+V8LBXRWL]9[jOi<7V7?c5z0
+!s100 0e5<g=bZ>fCN^19j2KkYc1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Ecmpn_vhd_vec_tst
+R1
+R5
+R6
+R0
+Z17 8CmpNSim.vwf.vht
+Z18 FCmpNSim.vwf.vht
+l0
+L32
+Vl9^B`7WiHghKMlTg<5P9h0
+!s100 o]>;lkjMgKmN0Zfj_dUPA3
+R10
+32
+R11
+!i10b 1
+R12
+Z19 !s90 -work|work|CmpNSim.vwf.vht|
+Z20 !s107 CmpNSim.vwf.vht|
+!i113 1
+R15
+R16
+Acmpn_arch
+R5
+R6
+DEx4 work 16 cmpn_vhd_vec_tst 0 22 l9^B`7WiHghKMlTg<5P9h0
+l53
+L34
+Vk=G0KAgHRZdVCnzeGNBPJ0
+!s100 8ljFb?kFfm=7]IXa6[HN91
+R10
+32
+R11
+!i10b 1
+R12
+R19
+R20
+!i113 1
+R15
+R16
