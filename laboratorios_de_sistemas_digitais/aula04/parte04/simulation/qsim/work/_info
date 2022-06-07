@@ -1,0 +1,100 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula04/parte04/simulation/qsim
+Efreqdivider
+Z1 w1649674512
+Z2 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 JX^YokbeM8:bL?Pj@;1Jd1
+Z3 DPx10 cycloneive 21 cycloneive_components 0 22 Lf2433zWNi5^RHNT=BHD60
+Z4 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z5 DPx6 altera 11 dffeas_pack 0 22 dbC[kT^o8P[ggjb1if:RT1
+Z6 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z9 DPx6 altera 28 altera_primitives_components 0 22 PoC3B_7fao?IDTS[NR5Q62
+R0
+Z10 8FreqDivider_Demo.vho
+Z11 FFreqDivider_Demo.vho
+l0
+L37
+VQd6GXE@?K_b1YLVh037`o3
+!s100 YVnW:T7YG;Xb?[O1@0;Mm1
+Z12 OV;C;10.5b;63
+32
+Z13 !s110 1649674512
+!i10b 1
+Z14 !s108 1649674512.000000
+Z15 !s90 -work|work|FreqDivider_Demo.vho|
+Z16 !s107 FreqDivider_Demo.vho|
+!i113 1
+Z17 o-work work
+Z18 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 11 freqdivider 0 22 Qd6GXE@?K_b1YLVh037`o3
+l263
+L45
+VTI6CH^b2e8^E9JCnWIX1K0
+!s100 =nn>Lh^EU`kMLXCL^DE[I1
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Efreqdivider_vhd_vec_tst
+Z19 w1649674511
+R7
+R8
+R0
+Z20 8FreqDividerSim.vwf.vht
+Z21 FFreqDividerSim.vwf.vht
+l0
+L32
+VO>2=ln7MJf6?4_=3<ISXm1
+!s100 XBKG:I6iRZXTXJ2dhVYH<3
+R12
+32
+R13
+!i10b 1
+R14
+Z22 !s90 -work|work|FreqDividerSim.vwf.vht|
+Z23 !s107 FreqDividerSim.vwf.vht|
+!i113 1
+R17
+R18
+Afreqdivider_arch
+R7
+R8
+Z24 DEx4 work 23 freqdivider_vhd_vec_tst 0 22 O>2=ln7MJf6?4_=3<ISXm1
+l47
+L34
+Z25 VL:eOhER``Z6SaPLnk]QX80
+Z26 !s100 dQCce`:NUfOTQ^T4<?:j41
+R12
+32
+R13
+!i10b 1
+R14
+R22
+R23
+!i113 1
+R17
+R18
