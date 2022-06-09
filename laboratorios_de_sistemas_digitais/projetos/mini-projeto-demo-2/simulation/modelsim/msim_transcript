@@ -1,0 +1,69 @@
+# do Down2StateDecrementer_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying /opt/intelFPGA_lite/19.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {/home/maomv/Repositories/laboratorio-de-sistemas-digitais/projetos/proj-demo-1/PulseGenerator2Hz.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:54:49 on May 18,2022
+# vcom -reportprogress 300 -93 -work work /home/maomv/Repositories/laboratorio-de-sistemas-digitais/projetos/proj-demo-1/PulseGenerator2Hz.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity PulseGenerator2Hz
+# -- Compiling architecture Behavioral of PulseGenerator2Hz
+# End time: 21:54:49 on May 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/maomv/Repositories/laboratorio-de-sistemas-digitais/projetos/proj-demo-1/PulseGenerator1Hz.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:54:49 on May 18,2022
+# vcom -reportprogress 300 -93 -work work /home/maomv/Repositories/laboratorio-de-sistemas-digitais/projetos/proj-demo-1/PulseGenerator1Hz.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity PulseGenerator1Hz
+# -- Compiling architecture Behavioral of PulseGenerator1Hz
+# End time: 21:54:49 on May 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/maomv/Repositories/laboratorio-de-sistemas-digitais/projetos/proj-demo-1/Down2StateDecrementer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:54:49 on May 18,2022
+# vcom -reportprogress 300 -93 -work work /home/maomv/Repositories/laboratorio-de-sistemas-digitais/projetos/proj-demo-1/Down2StateDecrementer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Down2StateDecrementer
+# -- Compiling architecture Behavioral of Down2StateDecrementer
+# ** Error: (vcom-11) Could not find work.debounceunit.
+# ** Error (suppressible): /home/maomv/Repositories/laboratorio-de-sistemas-digitais/projetos/proj-demo-1/Down2StateDecrementer.vhd(33): (vcom-1195) Cannot find expanded name "work.DebounceUnit".
+# ** Error: /home/maomv/Repositories/laboratorio-de-sistemas-digitais/projetos/proj-demo-1/Down2StateDecrementer.vhd(33): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.debounceunit.
+# ** Error (suppressible): /home/maomv/Repositories/laboratorio-de-sistemas-digitais/projetos/proj-demo-1/Down2StateDecrementer.vhd(44): (vcom-1195) Cannot find expanded name "work.DebounceUnit".
+# ** Error: /home/maomv/Repositories/laboratorio-de-sistemas-digitais/projetos/proj-demo-1/Down2StateDecrementer.vhd(44): Unknown expanded name.
+# -- Loading entity PulseGenerator1Hz
+# -- Loading entity PulseGenerator2Hz
+# ** Error: (vcom-11) Could not find work.decrementer4bit.
+# ** Error (suppressible): /home/maomv/Repositories/laboratorio-de-sistemas-digitais/projetos/proj-demo-1/Down2StateDecrementer.vhd(67): (vcom-1195) Cannot find expanded name "work.Decrementer4Bit".
+# ** Error: /home/maomv/Repositories/laboratorio-de-sistemas-digitais/projetos/proj-demo-1/Down2StateDecrementer.vhd(67): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.bin7segdecoder.
+# ** Error (suppressible): /home/maomv/Repositories/laboratorio-de-sistemas-digitais/projetos/proj-demo-1/Down2StateDecrementer.vhd(73): (vcom-1195) Cannot find expanded name "work.Bin7SegDecoder".
+# ** Error: /home/maomv/Repositories/laboratorio-de-sistemas-digitais/projetos/proj-demo-1/Down2StateDecrementer.vhd(73): Unknown expanded name.
+# ** Error: /home/maomv/Repositories/laboratorio-de-sistemas-digitais/projetos/proj-demo-1/Down2StateDecrementer.vhd(78): VHDL Compiler exiting
+# End time: 21:54:49 on May 18,2022, Elapsed time: 0:00:00
+# Errors: 13, Warnings: 0
+# ** Error: /opt/intelFPGA_lite/19.1/modelsim_ase/linuxaloem/vcom failed.
+# Error in macro ./Down2StateDecrementer_run_msim_rtl_vhdl.do line 10
+# /opt/intelFPGA_lite/19.1/modelsim_ase/linuxaloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {/home/maomv/Repositories/laboratorio-de-sistemas-digitais/projetos/proj-demo-1/Down2StateDecrementer.vhd}"
+# 
+# stdin: <EOF>
