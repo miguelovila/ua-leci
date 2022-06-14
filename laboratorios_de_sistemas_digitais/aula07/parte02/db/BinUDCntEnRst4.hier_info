@@ -1,0 +1,23 @@
+|BinUDCntEnRst4
+reset => s_cntvalue.OUTPUTSELECT
+reset => s_cntvalue.OUTPUTSELECT
+reset => s_cntvalue.OUTPUTSELECT
+reset => s_cntvalue.OUTPUTSELECT
+clk => s_cntvalue[0].CLK
+clk => s_cntvalue[1].CLK
+clk => s_cntvalue[2].CLK
+clk => s_cntvalue[3].CLK
+enable => s_cntvalue.OUTPUTSELECT
+enable => s_cntvalue.OUTPUTSELECT
+enable => s_cntvalue.OUTPUTSELECT
+enable => s_cntvalue.OUTPUTSELECT
+updown_n => s_cntvalue.OUTPUTSELECT
+updown_n => s_cntvalue.OUTPUTSELECT
+updown_n => s_cntvalue.OUTPUTSELECT
+updown_n => s_cntvalue.OUTPUTSELECT
+cntout[0] << s_cntvalue[0].DB_MAX_OUTPUT_PORT_TYPE
+cntout[1] << s_cntvalue[1].DB_MAX_OUTPUT_PORT_TYPE
+cntout[2] << s_cntvalue[2].DB_MAX_OUTPUT_PORT_TYPE
+cntout[3] << s_cntvalue[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
