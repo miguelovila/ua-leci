@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula07/parte05/simulation/modelsim
+Efreqdivider
+Z1 w1652785035
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8/home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula07/parte05/FreqDivider.vhd
+Z6 F/home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula07/parte05/FreqDivider.vhd
+l0
+L5
+VDknAZY][:UbjCjlNP8O:b2
+!s100 Fz17nmMUKlm^Il>CgGRSJ1
+Z7 OV;C;10.5b;63
+31
+Z8 !s110 1652785065
+!i10b 1
+Z9 !s108 1652785065.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|/home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula07/parte05/FreqDivider.vhd|
+Z11 !s107 /home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula07/parte05/FreqDivider.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+Z14 DEx4 work 11 freqdivider 0 22 DknAZY][:UbjCjlNP8O:b2
+l17
+L11
+Va2j]i4@DdlT=MMj1ID67i0
+!s100 bEN6NANN^IzdT;mzDf`@R2
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Efreqdividertb
+Z15 w1651858209
+R3
+R4
+R0
+Z16 8/home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula07/parte05/FreqDividerTb.vhd
+Z17 F/home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula07/parte05/FreqDividerTb.vhd
+l0
+L4
+V4`<18QR5B?gehM?[B2O723
+!s100 7;V:?BUH4h8mcck7^K<f_1
+R7
+32
+Z18 !s110 1652785085
+!i10b 1
+Z19 !s108 1652785085.000000
+Z20 !s90 -reportprogress|300|-work|work|/home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula07/parte05/FreqDividerTb.vhd|
+Z21 !s107 /home/maomv/Repositories/laboratorio-de-sistemas-digitais/aula07/parte05/FreqDividerTb.vhd|
+!i113 1
+Z22 o-work work
+R13
+Astimulus
+R2
+R14
+R3
+R4
+DEx4 work 13 freqdividertb 0 22 4`<18QR5B?gehM?[B2O723
+l10
+L7
+V?_GL2@I88lg90=6IZR=D@0
+!s100 bWNJBaFlk?_l8_ZjUo;4[3
+R7
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R22
+R13
