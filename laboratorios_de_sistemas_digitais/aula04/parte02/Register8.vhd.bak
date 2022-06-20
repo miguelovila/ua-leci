@@ -1,0 +1,6 @@
+use ieee;
+library ieee.std_logic_1164.all;
+
+entity register8 is
+
+end register8;
