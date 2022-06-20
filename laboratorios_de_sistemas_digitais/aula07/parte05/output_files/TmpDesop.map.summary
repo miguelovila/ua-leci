@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue May 17 12:11:56 2022
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : TmpDesop
+Top-level Entity Name : freqdivider
+Family : Cyclone IV E
+Total logic elements : 39
+    Total combinational functions : 39
+    Dedicated logic registers : 26
+Total registers : 26
+Total pins : 2
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
