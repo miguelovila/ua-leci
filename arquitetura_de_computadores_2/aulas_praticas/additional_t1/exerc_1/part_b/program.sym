@@ -1,0 +1,14 @@
+GAS LISTING program.s 			page 1
+
+
+DEFINED SYMBOLS
+           program.s:1      *ABS*:000000000000bf88 SFR_BASE_HI
+           program.s:2      *ABS*:0000000000006100 TRISE
+           program.s:3      *ABS*:0000000000006120 LATE
+           program.s:4      *ABS*:0000000000006040 TRISB
+           program.s:5      *ABS*:0000000000006050 PORTB
+           program.s:10     .text:0000000000000000 main
+           program.s:20     .text:000000000000001c beginLoop
+           program.s:45     .text:0000000000000060 endLoop
+
+NO UNDEFINED SYMBOLS
