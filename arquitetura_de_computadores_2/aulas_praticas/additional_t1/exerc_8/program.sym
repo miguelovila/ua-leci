@@ -1,0 +1,16 @@
+GAS LISTING program.s 			page 1
+
+
+DEFINED SYMBOLS
+           program.s:1      *ABS*:0000000000000003 putChar
+           program.s:2      *ABS*:000000000000bf88 SFR_BASE_HI
+           program.s:3      *ABS*:0000000000006040 TRISB
+           program.s:4      *ABS*:0000000000006050 PORTB
+           program.s:5      *ABS*:000000000000000b readCoreTimer
+           program.s:6      *ABS*:000000000000000c resetCoreTimer
+           program.s:10     .text:0000000000000000 main
+           program.s:16     .text:0000000000000010 beginLoop
+           program.s:42     .text:0000000000000074 delay
+           program.s:47     .text:0000000000000098 endLoop
+
+NO UNDEFINED SYMBOLS
