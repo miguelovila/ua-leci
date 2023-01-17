@@ -1,0 +1,18 @@
+GAS LISTING program.s 			page 1
+
+
+DEFINED SYMBOLS
+           program.s:1      *ABS*:0000000000000003 PUT_CHAR
+           program.s:2      *ABS*:0000000000000006 PRINT_INT
+           program.s:6      .text:0000000000000000 main
+           program.s:15     .text:0000000000000020 mainWhile0
+           program.s:62     .text:00000000000000d8 delay
+           program.s:43     .text:000000000000009c skipT1Increment
+           program.s:47     .text:00000000000000b4 skipT2Increment
+           program.s:49     .text:00000000000000bc mainEndWhile0
+           program.s:58     *ABS*:000000000000000b READ_CORE_TIMER
+           program.s:59     *ABS*:000000000000000c RESET_CORE_TIMER
+           program.s:66     .text:00000000000000ec delayWhile0
+           program.s:70     .text:0000000000000100 delayEndWhile0
+
+NO UNDEFINED SYMBOLS
