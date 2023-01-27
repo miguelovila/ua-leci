@@ -1,0 +1,24 @@
+GAS LISTING program_b.s 			page 1
+
+
+DEFINED SYMBOLS
+         program_b.s:1      *ABS*:0000000000000006 printInt
+         program_b.s:2      *ABS*:0000000000000007 printInt10
+         program_b.s:3      *ABS*:0000000000000003 putChar
+         program_b.s:4      *ABS*:000000000000000c resetCoreTime
+         program_b.s:5      *ABS*:000000000000000b readCoreTimer
+         program_b.s:6      *ABS*:0000000000000001 inkey
+         program_b.s:7      *ABS*:0000000000000008 printStr
+         program_b.s:9      .data:0000000000000000 hz
+         program_b.s:12     .text:0000000000000000 main
+         program_b.s:16     .text:0000000000000010 beginLoop
+         program_b.s:44     .text:00000000000000ac endHandleInput
+         program_b.s:24     .text:000000000000003c endif1
+         program_b.s:29     .text:0000000000000058 endif2
+         program_b.s:34     .text:0000000000000074 endif3
+         program_b.s:39     .text:0000000000000090 endif4
+         program_b.s:64     .text:0000000000000100 stall
+         program_b.s:68     .text:0000000000000114 endstall
+         program_b.s:72     .text:0000000000000128 endLoop
+
+NO UNDEFINED SYMBOLS
