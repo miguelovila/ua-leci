@@ -1,0 +1,23 @@
+GAS LISTING program.s 			page 1
+
+
+DEFINED SYMBOLS
+           program.s:1      *ABS*:000000000000bf88 SFR_BASE_HI
+           program.s:2      *ABS*:0000000000006100 TRISE
+           program.s:3      *ABS*:0000000000006120 LATE
+           program.s:5      *ABS*:000000000000000b readCoreTimer
+           program.s:6      *ABS*:000000000000000c resetCoreTimer
+           program.s:7      *ABS*:0000000000000001 inKey
+           program.s:12     .text:0000000000000000 main
+           program.s:19     .text:0000000000000010 beginStall
+           program.s:27     .text:0000000000000024 stall
+           program.s:33     .text:0000000000000048 endStall
+           program.s:39     .text:0000000000000054 beginLoop
+           program.s:45     .text:000000000000006c if0
+           program.s:49     .text:0000000000000080 if1
+           program.s:60     .text:00000000000000b8 endif
+           program.s:53     .text:0000000000000094 if2
+           program.s:57     .text:00000000000000a8 if3
+           program.s:63     .text:00000000000000c0 endLoop
+
+NO UNDEFINED SYMBOLS
