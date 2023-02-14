@@ -1,0 +1,14 @@
+GAS LISTING prog_2.s 			page 1
+
+
+DEFINED SYMBOLS
+            prog_2.s:1      *ABS*:0000000000000001 IN_KEY
+            prog_2.s:2      *ABS*:0000000000000003 PUT_CHAR
+            prog_2.s:6      .text:0000000000000000 main
+            prog_2.s:7      .text:0000000000000000 doWhile0
+            prog_2.s:12     .text:0000000000000010 if0
+            prog_2.s:17     .text:0000000000000028 else0
+            prog_2.s:20     .text:0000000000000030 endIf0
+            prog_2.s:22     .text:000000000000003c endDoWhile0
+
+NO UNDEFINED SYMBOLS
