@@ -1,0 +1,11 @@
+Given that the Core Timer is a 32-bit timer working on a 20 MHz clock, it means that 1 second corresponds to 20000000 ticks.
+
+If we want a function that delays the program execution by x number of ms, we need to calculate the number of ticks that correspond to 1 ms and multiply it by x.
+
+If 1 second corresponds to 20000000 ticks, then 1 ms corresponds to 20000 ticks, thus the function will be:
+
+void delay(unsigned int ms)
+{
+    resetCoreTimer();
+    while(readCoreTimer() < ms * 20000);
+}

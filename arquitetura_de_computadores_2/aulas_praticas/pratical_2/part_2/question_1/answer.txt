@@ -1,0 +1,5 @@
+Using only one Core Timer we want to increment 3 variables at different rates: 1 Hz, 5 Hz and 10 Hz.
+
+Since 10 Hz is the fastest, we will use it as the base rate. We will use the 5 Hz and 1 Hz rates as multiples of the 10 Hz rate.
+
+The 10 Hz rate is 100 ms, so we will use the 100 ms Core Timer to increment the 10 Hz variable. The 5 Hz rate is 200 ms, so we will use the 200 ms Core Timer to increment the 5 Hz variable. The 1 Hz rate is 1000 ms, so we will use the 1000 ms Core Timer to increment the 1 Hz variable.
