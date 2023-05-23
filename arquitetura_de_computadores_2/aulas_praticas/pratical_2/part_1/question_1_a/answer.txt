@@ -1,0 +1,7 @@
+The system clock on this board runs at 40 MHz. The system clock is used as a clock signal for the microprocessor. But, on this architecture, there's also an embbeded clock based that's always running called Core Timer.
+
+The Core Timer is just a 32 bit up-counter that count's at a rate of half the system clock. So, if the system clock is 40 MHz, the Core Timer will count at 20 MHz.
+
+This means that in a second, the Core Timer will count 20000000 times. So, if you want to wait for 1 second, you just need to wait for the Core Timer to count 20000000 times.
+
+If we set the variable "count" to 0, and then we wait for the Core Timer to count 200000 times, we will have waited for 0.01 seconds. This means that for each 0.01 second that passes, the variable "count" will increase by 1, thus it's frequency will be 100 Hz.
