@@ -1,0 +1,76 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/run/media/miguelovila/Expansion/Development/ua-leci/ano_1_semestre_2/laboratorio_de_sistemas_digitais/aula06/parte03/simulation/modelsim
+Ecombshiftunit
+Z1 w1692217907
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8/run/media/miguelovila/Expansion/Development/ua-leci/ano_1_semestre_2/laboratorio_de_sistemas_digitais/aula06/parte03/CombShiftUnit.vhd
+Z6 F/run/media/miguelovila/Expansion/Development/ua-leci/ano_1_semestre_2/laboratorio_de_sistemas_digitais/aula06/parte03/CombShiftUnit.vhd
+l0
+L5 1
+VAD>>a83FEbzLLHiQbG74z0
+!s100 S3eFeXhGKabOLRJ^hmJ@g1
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1692241342
+!i10b 1
+Z9 !s108 1692241342.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|/run/media/miguelovila/Expansion/Development/ua-leci/ano_1_semestre_2/laboratorio_de_sistemas_digitais/aula06/parte03/CombShiftUnit.vhd|
+Z11 !s107 /run/media/miguelovila/Expansion/Development/ua-leci/ano_1_semestre_2/laboratorio_de_sistemas_digitais/aula06/parte03/CombShiftUnit.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+DEx4 work 13 combshiftunit 0 22 AD>>a83FEbzLLHiQbG74z0
+!i122 0
+l13
+L12 30
+VmZ2XQbOkPNB^QC8FBc^5@1
+!s100 4T6EaJDFFA;V8G]`V=RZz2
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ecombshiftunit_demo
+R1
+R3
+R4
+!i122 1
+R0
+8/run/media/miguelovila/Expansion/Development/ua-leci/ano_1_semestre_2/laboratorio_de_sistemas_digitais/aula06/parte03/CombShiftUnit_Demo.vhd
+F/run/media/miguelovila/Expansion/Development/ua-leci/ano_1_semestre_2/laboratorio_de_sistemas_digitais/aula06/parte03/CombShiftUnit_Demo.vhd
+l0
+L4 1
+V7X:@GPMV6hmPWHnUfJgYD0
+!s100 ]dWJBkkDnZJZ:_NY`9@Z;2
+R7
+31
+R8
+!i10b 1
+R9
+!s90 -reportprogress|300|-93|-work|work|/run/media/miguelovila/Expansion/Development/ua-leci/ano_1_semestre_2/laboratorio_de_sistemas_digitais/aula06/parte03/CombShiftUnit_Demo.vhd|
+!s107 /run/media/miguelovila/Expansion/Development/ua-leci/ano_1_semestre_2/laboratorio_de_sistemas_digitais/aula06/parte03/CombShiftUnit_Demo.vhd|
+!i113 1
+R12
+R13
